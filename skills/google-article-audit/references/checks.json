@@ -1,0 +1,671 @@
+{
+  "note": "Internal audit IDs and operational tests, not Google official rule numbers or a mandatory 44-item form. Apply only appropriate checks and distinguish source identity from the local evidence threshold.",
+  "checks": [
+    {
+      "id": "GOV-01",
+      "name": "頁面任務與範圍已定義",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "content_only"
+      ],
+      "test": "定義實際頁面目的、讀者任務、風險及本次審查範圍；可先審已提供內容，不要求填完網站表單。",
+      "evidence": "brief 與人工範圍檢查紀錄。",
+      "source_ids": [
+        "SRC-013"
+      ]
+    },
+    {
+      "id": "GOV-02",
+      "name": "適用官方規則已核對時效",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "audit_process"
+      ],
+      "test": "規範身分、版本、地區及本次所需時效可追溯；衝突已處理或明示UNKNOWN。無法取得來源不可刷新查核日。",
+      "evidence": "來源查核紀錄、版本差異或人工確認。",
+      "source_ids": [
+        "SRC-062",
+        "SRC-054"
+      ]
+    },
+    {
+      "id": "GOV-03",
+      "name": "最終頁面產物完整",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "rendered_page"
+      ],
+      "test": "對聲稱完成的範圍取得相應產物。未要求整頁時full_page=NOT_ASSESSED；要求整頁時按已知阻擋或必要缺證據判定BLOCKED或NEEDS_EVIDENCE。只有文稿不阻擋已完成文稿的交付。",
+      "evidence": "完整產物清單與預覽測試紀錄。",
+      "source_ids": [
+        "SRC-020"
+      ]
+    },
+    {
+      "id": "PUR-01",
+      "name": "完成讀者主要任務",
+      "rule_class": "official_recommendation",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "content_only"
+      ],
+      "test": "目標讀者可完成本頁主要任務；判斷與操作有必要條件及成功標準。沒有query不給Needs Met評等。",
+      "evidence": "讀者任務走查與頁面定位。",
+      "source_ids": [
+        "SRC-001",
+        "SRC-013"
+      ]
+    },
+    {
+      "id": "PUR-02",
+      "name": "新增具體價值",
+      "rule_class": "official_recommendation",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "content_only"
+      ],
+      "test": "指出本頁的具體貢獻及對應位置；清楚綜合、比較、在地條件與實用功能也可成立，不要求獨家研究或勞動時數。",
+      "evidence": "貢獻說明及對應內容；不強迫虛构實驗。",
+      "source_ids": [
+        "SRC-001",
+        "SRC-005"
+      ]
+    },
+    {
+      "id": "PUR-03",
+      "name": "必要內容不被空話遮住",
+      "rule_class": "rater_concept",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "content_only",
+        "rendered_page"
+      ],
+      "test": "找出妨礙主要任務的具體空話、冗餘或阻礙；保留有用途的背景敘事，不使用固定前言或字數門檻。",
+      "evidence": "首屏、內容順序及有問題段落定位。",
+      "source_ids": [
+        "SRC-012"
+      ]
+    },
+    {
+      "id": "EVD-01",
+      "name": "重要主張有真正支持的證據",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "content_claim"
+      ],
+      "test": "承重主張對應實際读過的來源及其支持範圍；缺證據是UNKNOWN，來源明確反證是FAIL。",
+      "evidence": "claim ledger：句子、來源、定位、支持範圍。",
+      "source_ids": [
+        "SRC-001",
+        "SRC-003"
+      ]
+    },
+    {
+      "id": "EVD-02",
+      "name": "時效資訊重新查核",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "content_claim"
+      ],
+      "test": "時效主張按版本、日期、地區及任務重查；舊但正確的歷史文章不因此失敗。",
+      "evidence": "查核時間與來源；不拿發文日冒充確認日。",
+      "source_ids": [
+        "SRC-003",
+        "SRC-033"
+      ]
+    },
+    {
+      "id": "EVD-03",
+      "name": "沒有假實測或假身分",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "creator",
+        "content_claim"
+      ],
+      "test": "親測、訪談、作者身分與資歷有真實依據；證據不足維持UNKNOWN，證明虛構才FAIL，不自動補寫。",
+      "evidence": "測試或授權資料，或明確標明為研究整理。",
+      "source_ids": [
+        "SRC-001",
+        "SRC-052"
+      ]
+    },
+    {
+      "id": "EVD-04",
+      "name": "數據與比較可重算",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "content_claim"
+      ],
+      "test": "數據保留來源、期間、分母、單位、比較條件及計算；重要結論能重算或明示限制。",
+      "evidence": "計算紀錄、原始資料定位或無數值主張的查核。",
+      "source_ids": [
+        "SRC-052"
+      ]
+    },
+    {
+      "id": "TRU-01",
+      "name": "責任主體清楚真實",
+      "rule_class": "official_recommendation",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "creator",
+        "site"
+      ],
+      "test": "責任資訊符合頁面用途，身分與資歷沒有欺騙；不強迫組織服務頁加真人署名，也不把查無聲譽當負面聲譽。",
+      "evidence": "可見署名或組織資訊及身分核對。",
+      "source_ids": [
+        "SRC-001",
+        "SRC-013"
+      ]
+    },
+    {
+      "id": "TRU-02",
+      "name": "內容與資產有權公開",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "provenance"
+      ],
+      "test": "敏感資料、案例與素材的公開權限有證據或待確認；相似內容不直接等於侵權，AI不保證法律合規。",
+      "evidence": "資產來源、客戶授權及敏感資訊檢查。",
+      "source_ids": []
+    },
+    {
+      "id": "TRU-03",
+      "name": "高風險主張有領域複核",
+      "rule_class": "internal_standard",
+      "applicability": "任一功能旗標：ymyl",
+      "observed_scopes": [
+        "content_claim",
+        "human_review"
+      ],
+      "test": "對可能造成重大傷害的具體主張依風險要求適任審查；親身經驗敘事與專業處置建議分開，AI扮演專家不是審查。",
+      "evidence": "真實審查紀錄；AI 扮演專家不算。",
+      "source_ids": [
+        "SRC-012"
+      ]
+    },
+    {
+      "id": "POL-01",
+      "name": "沒有欺騙性內容或功能",
+      "rule_class": "search_policy",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "content_only",
+        "rendered_page",
+        "site"
+      ],
+      "test": "按現行spam/content政策載入有關子檢查，分清可觀察缺陷、疑似風險及Google確認的處置；不執行可疑惡意程式。",
+      "evidence": "頁面、腳本、導覽與實際任務測試。",
+      "source_ids": [
+        "SRC-010",
+        "SRC-006",
+        "SRC-007",
+        "SRC-009"
+      ]
+    },
+    {
+      "id": "POL-02",
+      "name": "沒有大量低價值頁面模式",
+      "rule_class": "search_policy",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "site_sample",
+        "provenance"
+      ],
+      "test": "大量生成、抄取、薄弱聯盟與過期網域分開檢查；需要模式、目的、來源與實際價值證據。單篇不能證明全站安全或規模化濫用。",
+      "evidence": "站點或批次抽樣、頁面目的及新增價值紀錄。",
+      "source_ids": [
+        "SRC-010"
+      ]
+    },
+    {
+      "id": "POL-03",
+      "name": "沒有門頁與塞詞",
+      "rule_class": "search_policy",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "content_only",
+        "site_sample"
+      ],
+      "test": "門頁需看頁群與實際目的地；塞詞需指出不自然或不相關的實例，不使用密度百分比或僅憑模板重複判斷。",
+      "evidence": "相似頁面對照與判斷。",
+      "source_ids": [
+        "SRC-010"
+      ]
+    },
+    {
+      "id": "POL-04",
+      "name": "外稿與贊助內容政策已核對",
+      "rule_class": "search_policy",
+      "applicability": "任一功能旗標：third_party",
+      "observed_scopes": [
+        "site_sample",
+        "provenance"
+      ],
+      "test": "依現行政策综合評估第三方內容與主站的實質編輯整合、品質一致、責任、外站重複及目的；搜尋者地區決定EEA處置差異，沒有單一充分條件。",
+      "evidence": "來源、編輯責任、刊登目的與適用市場。",
+      "source_ids": [
+        "SRC-010"
+      ]
+    },
+    {
+      "id": "POL-05",
+      "name": "付費與投稿連結標示適當",
+      "rule_class": "search_policy",
+      "applicability": "任一功能旗標：sponsored, ugc",
+      "observed_scopes": [
+        "rendered_page",
+        "commercial_records"
+      ],
+      "test": "分開link spam、付費連結必要資格及UGC建議；已知paid/sponsored連結查sponsored或可接受nofollow，UGC建議不冒充通用強制規定。",
+      "evidence": "連結清單、商業關係與 rendered rel。",
+      "source_ids": [
+        "SRC-008"
+      ]
+    },
+    {
+      "id": "MET-01",
+      "name": "標題如實反映頁面",
+      "rule_class": "official_recommendation",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "content_only",
+        "rendered_page"
+      ],
+      "test": "title、主標與正文承諾一致，不誇張、不虛構年份與結果；不設通用60字元門檻。",
+      "evidence": "title、頁面主標與承重主張對照。",
+      "source_ids": [
+        "SRC-034"
+      ]
+    },
+    {
+      "id": "MET-02",
+      "name": "摘要與 alt 沒有新增錯誤",
+      "rule_class": "official_recommendation",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "content_only",
+        "rendered_page"
+      ],
+      "test": "已取得的摘要、OG、alt、圖中文字與標記不新增不實主張；缺少的輸出不能冒稱已查。",
+      "evidence": "完整 metadata 和圖片文字對照。",
+      "source_ids": [
+        "SRC-003",
+        "SRC-025",
+        "SRC-030"
+      ]
+    },
+    {
+      "id": "MET-03",
+      "name": "日期反映實際內容變更",
+      "rule_class": "official_recommendation",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "content_only",
+        "rendered_page"
+      ],
+      "test": "可見日期與標記有真實更新依據，日期、版本和來源對齊；無關頁型不強制加日期。",
+      "evidence": "日期欄位、版本差異與更新紀錄。",
+      "source_ids": [
+        "SRC-033"
+      ]
+    },
+    {
+      "id": "LNK-01",
+      "name": "重要頁面有自然的發現路徑",
+      "rule_class": "official_recommendation",
+      "applicability": "任一功能旗標：indexable",
+      "observed_scopes": [
+        "rendered_page",
+        "site_sample"
+      ],
+      "test": "預期曝光頁有自然可抓取的發現路徑；內鏈有讀者用途，無固定數量。",
+      "evidence": "導覽、入口頁與 a href 抽查。",
+      "source_ids": [
+        "SRC-017"
+      ]
+    },
+    {
+      "id": "LNK-02",
+      "name": "關鍵連結與 CTA 可使用",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "rendered_page"
+      ],
+      "test": "主要連結與CTA能完成被承諾任務；涉及實際送出、交易或對外修改需另獲授權。",
+      "evidence": "連結／表單走查紀錄。",
+      "source_ids": [
+        "SRC-017"
+      ]
+    },
+    {
+      "id": "TEC-01",
+      "name": "正式版本可成功回應",
+      "rule_class": "technical_eligibility",
+      "applicability": "任一功能旗標：indexable",
+      "observed_scopes": [
+        "http",
+        "deployment_config"
+      ],
+      "test": "正式或預定正式版本成功回應且有可索引內容；未上線先驗準備，不要求先已收錄。",
+      "evidence": "預覽、預定正式設定與回查責任人。",
+      "source_ids": [
+        "SRC-015"
+      ]
+    },
+    {
+      "id": "TEC-02",
+      "name": "Googlebot 不被意外阻擋",
+      "rule_class": "technical_eligibility",
+      "applicability": "任一功能旗標：indexable",
+      "observed_scopes": [
+        "http",
+        "deployment_config"
+      ],
+      "test": "索引意圖下Googlebot不被意外阻擋；robots阻擋與noindex分開，保留刻意的私人/staging防護。",
+      "evidence": "存取設定、headers 與可達性檢查。",
+      "source_ids": [
+        "SRC-015"
+      ]
+    },
+    {
+      "id": "TEC-03",
+      "name": "索引意圖與控制一致",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "http",
+        "rendered_page",
+        "deployment_config"
+      ],
+      "test": "索引、canonical、robots及公開範圍符合擁有者意圖；不為SEO自行公開私人內容。",
+      "evidence": "正式設定、原始 HTML／DOM 與索引意圖。",
+      "source_ids": [
+        "SRC-019"
+      ]
+    },
+    {
+      "id": "TEC-04",
+      "name": "主內容可渲染及讀取",
+      "rule_class": "official_recommendation",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "rendered_page",
+        "deployment_config"
+      ],
+      "test": "主內容與關鍵訊號可渲染讀取；工具方法與限制有記錄，一般瀏覽器結果不等於Google已渲染。",
+      "evidence": "桌面與手機預覽、DOM 與錯誤紀錄。",
+      "source_ids": [
+        "SRC-020"
+      ]
+    },
+    {
+      "id": "UX-01",
+      "name": "主要任務能在手機完成",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "rendered_page"
+      ],
+      "test": "在代表性手機/桌面完成主要任務；區分必要法規/同意互動與侵入性遮擋。",
+      "evidence": "裝置尺寸、操作步驟、結果與截圖。",
+      "source_ids": [
+        "SRC-042",
+        "SRC-024"
+      ]
+    },
+    {
+      "id": "UX-02",
+      "name": "效能狀態有記錄",
+      "rule_class": "official_recommendation",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "performance_data"
+      ],
+      "test": "分開真實field與lab資料；無資料是UNKNOWN，不杜撰指標，不以速度分數證明內容正確或排名。",
+      "evidence": "可用 lab／field 資料、工具與測量時間。",
+      "source_ids": [
+        "SRC-041"
+      ]
+    },
+    {
+      "id": "UX-03",
+      "name": "互動功能輸出正確",
+      "rule_class": "internal_standard",
+      "applicability": "任一功能旗標：interactive",
+      "observed_scopes": [
+        "rendered_page",
+        "test_records"
+      ],
+      "test": "實際互動功能有代表性、邊界與錯誤處理測試，記錄觀察，不只相信文案承諾。",
+      "evidence": "測試步驟及輸出證據。",
+      "source_ids": [
+        "SRC-010"
+      ]
+    },
+    {
+      "id": "SCH-01",
+      "name": "結構化資料真實可見",
+      "rule_class": "surface_requirement",
+      "applicability": "任一功能旗標：structured_data",
+      "observed_scopes": [
+        "rendered_page",
+        "content_claim"
+      ],
+      "test": "現有標記符合實際可見內容；偽造作者、價格或評分另升為真實性問題，不只schema警告。",
+      "evidence": "JSON-LD／Microdata／RDFa 與畫面對照。",
+      "source_ids": [
+        "SRC-029"
+      ]
+    },
+    {
+      "id": "SCH-02",
+      "name": "結構化資料功能仍支援",
+      "rule_class": "surface_requirement",
+      "applicability": "任一功能旗標：structured_data",
+      "observed_scopes": [
+        "rendered_page"
+      ],
+      "test": "功能現時仍受支援、頁型適用、必要欄位及真實性有效；停用FAQ結果不等於刪除有用FAQ文字。",
+      "evidence": "功能專頁、語法測試與適用性說明。",
+      "source_ids": [
+        "SRC-039",
+        "SRC-023",
+        "SRC-062",
+        "SRC-037"
+      ]
+    },
+    {
+      "id": "REV-01",
+      "name": "評測依據與利益關係清楚",
+      "rule_class": "official_recommendation",
+      "applicability": "頁型：review",
+      "observed_scopes": [
+        "content_only",
+        "provenance"
+      ],
+      "test": "研究比較與真實親測分清；方法、利害關係、比較條件及適用限制可核對，不補演體驗。",
+      "evidence": "研究／測試方法、比較資料、揭露。",
+      "source_ids": [
+        "SRC-052"
+      ]
+    },
+    {
+      "id": "REV-02",
+      "name": "評論與星等符合資格",
+      "rule_class": "surface_requirement",
+      "applicability": "任一功能旗標：review_markup",
+      "observed_scopes": [
+        "rendered_page",
+        "provenance"
+      ],
+      "test": "評論真實性、獎勵揭露、自評限制及型別依現行review snippet規則核對；文章評測品質與星等資格分開。",
+      "evidence": "來源與真實性、揭露、標記類型。",
+      "source_ids": [
+        "SRC-038"
+      ]
+    },
+    {
+      "id": "AI-01",
+      "name": "Google AI 納入與摘要設定已核對",
+      "rule_class": "surface_requirement",
+      "applicability": "任一功能旗標：ai_search",
+      "observed_scopes": [
+        "rendered_page",
+        "search_console"
+      ],
+      "test": "分開索引/摘要、Search生成式AI控制、Google-Extended、量測；預設Include不等於必須另行opt-in，llms.txt不是資格。",
+      "evidence": "設定證據與適用 property；新頁索引列發布後。",
+      "source_ids": [
+        "SRC-005",
+        "SRC-019",
+        "SRC-064",
+        "SRC-056"
+      ]
+    },
+    {
+      "id": "DIS-01",
+      "name": "Discover 預覽與政策適用",
+      "rule_class": "surface_requirement",
+      "applicability": "任一功能旗標：discover",
+      "observed_scopes": [
+        "rendered_page"
+      ],
+      "test": "只有Discover範圍才套其政策、代表性預覽與圖片要求；合格不保證出現。",
+      "evidence": "圖片尺寸、裁切、預覽控制與政策核對。",
+      "source_ids": [
+        "SRC-026",
+        "SRC-027"
+      ]
+    },
+    {
+      "id": "VID-01",
+      "name": "影片搜尋條件已核對",
+      "rule_class": "surface_requirement",
+      "applicability": "任一功能旗標：video_search",
+      "observed_scopes": [
+        "rendered_page",
+        "media_asset"
+      ],
+      "test": "影片搜尋目標按觀看頁、主要影片、可播放、縮圖及取得條件驗證；可選VideoObject只在適用時檢查。",
+      "evidence": "影片可播放、頁面位置、縮圖與功能檢查。",
+      "source_ids": [
+        "SRC-043",
+        "SRC-044"
+      ]
+    },
+    {
+      "id": "IMG-01",
+      "name": "重要圖片有可用上下文",
+      "rule_class": "official_recommendation",
+      "applicability": "任一功能旗標：images",
+      "observed_scopes": [
+        "rendered_page",
+        "media_asset"
+      ],
+      "test": "重要圖片可用且有準確alt/上下文；裝飾圖不塞詞，不捏造圖中觀察或素材權利。",
+      "evidence": "圖片與 alt 檢查；授權見 TRU-02。",
+      "source_ids": [
+        "SRC-030"
+      ]
+    },
+    {
+      "id": "COM-01",
+      "name": "商品與交易資訊一致",
+      "rule_class": "internal_standard",
+      "applicability": "頁型：product",
+      "observed_scopes": [
+        "rendered_page",
+        "feed",
+        "merchant_center"
+      ],
+      "test": "價格、庫存、幣別、商品主張在各輸出一致；依商品snippet/merchant入口路由，AI素材標示不泛化為所有文章義務。",
+      "evidence": "產品真實資料、購物流程與適用產品政策。",
+      "source_ids": [
+        "SRC-050",
+        "SRC-035",
+        "SRC-036",
+        "SRC-048",
+        "SRC-045"
+      ]
+    },
+    {
+      "id": "LOC-01",
+      "name": "語系與地區版本一致",
+      "rule_class": "official_recommendation",
+      "applicability": "任一功能旗標：multilingual",
+      "observed_scopes": [
+        "rendered_page",
+        "site_sample"
+      ],
+      "test": "多語地區內容、條件及實際對應URL一致；多語標記依適用官方文件另驗，不能單憑語言推論搜尋者所在地。",
+      "evidence": "版本對照與標記檢查。",
+      "source_ids": [
+        "SRC-065"
+      ]
+    },
+    {
+      "id": "UPD-01",
+      "name": "舊頁基準與有效內容保留",
+      "rule_class": "internal_standard",
+      "applicability": "任一功能旗標：update",
+      "observed_scopes": [
+        "artifact_diff"
+      ],
+      "test": "保留更新前基準，修改有明確問題和理由；不無故洗掉真實證據、限制與有效連結。",
+      "evidence": "before/after、修改說明、回滾版本。",
+      "source_ids": [
+        "SRC-055",
+        "SRC-031"
+      ]
+    },
+    {
+      "id": "UPD-02",
+      "name": "受保護 URL 設定未被擅改",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "artifact_diff",
+        "authorization"
+      ],
+      "test": "URL/redirect/canonical/公開範圍/刪頁等變更不從audit請求推論授權；只記錄建議，另行請求必要批准。",
+      "evidence": "差異與授權紀錄；無改動可記錄確認。",
+      "source_ids": [
+        "SRC-016"
+      ]
+    },
+    {
+      "id": "REL-01",
+      "name": "獨立複查完成",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "review_records"
+      ],
+      "test": "按風險明示需要哪種複查；自查/隔離模型/真人/領域審查不混用，審查綁定實際版本。",
+      "evidence": "複查者、方法、對象版本及結果。",
+      "source_ids": []
+    },
+    {
+      "id": "REL-02",
+      "name": "發布後回查與回滾已安排",
+      "rule_class": "internal_standard",
+      "applicability": "所有頁面",
+      "observed_scopes": [
+        "deployment_plan"
+      ],
+      "test": "只有實際發布准备才要求正式版回查責任與回滾；純文稿審查不虛構已有部署或監測。",
+      "evidence": "部署後測試清單與回滾計畫。",
+      "source_ids": []
+    }
+  ]
+}

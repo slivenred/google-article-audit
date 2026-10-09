@@ -1,0 +1,13 @@
+interface:
+  display_name: Google 文章發布前審查
+  short_description: 依 Google 官方文件審查文章、核對證據並提供保留原意的最小修改
+  default_prompt: 請用 $google-article-audit 審查並優化以下文章，區分已確認問題、待補證據與網站端待查事項，保留我的語氣與格式。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

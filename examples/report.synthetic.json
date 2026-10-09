@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "artifact": {
+    "id": "synthetic-demo",
+    "version": "draft-1"
+  },
+  "mode": "audit-only",
+  "requested_scope": [
+    "content_only"
+  ],
+  "observed_scope": [
+    "content_only"
+  ],
+  "scope_note": "Synthetic example only. No real article, website, current policy or factual claim was audited.",
+  "decisions": {
+    "editorial": "NEEDS_EVIDENCE",
+    "full_page": "NOT_ASSESSED",
+    "publication_authorization": "NOT_REQUESTED"
+  },
+  "findings": [
+    {
+      "id": "F-001",
+      "check_id": "EVD-01",
+      "location": "Example paragraph 1",
+      "claim": "The placeholder text claims a guaranteed outcome.",
+      "rule_class": "internal_standard",
+      "applicability": "This example includes a load-bearing claim.",
+      "status": "UNKNOWN",
+      "gap": "The example has no supporting primary evidence.",
+      "fix": "Obtain appropriate evidence or remove unsupported certainty.",
+      "recheck": "Read the actual evidence and re-evaluate the revised sentence. This has not been done.",
+      "gate": "editorial",
+      "required": true,
+      "sources": []
+    }
+  ],
+  "remaining_questions": [
+    "Provide the article and primary evidence before conducting a real audit."
+  ],
+  "known_future_publication_blockers": []
+}

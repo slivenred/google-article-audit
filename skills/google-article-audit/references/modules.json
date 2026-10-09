@@ -1,0 +1,434 @@
+{
+  "core": {
+    "trigger": "Any article audit; use only supplied metadata.",
+    "checks": [
+      "GOV-01",
+      "GOV-02",
+      "PUR-01",
+      "PUR-02",
+      "PUR-03",
+      "EVD-01",
+      "EVD-02",
+      "EVD-03",
+      "EVD-04",
+      "TRU-01",
+      "POL-01",
+      "MET-01",
+      "MET-02",
+      "MET-03"
+    ],
+    "sources": [
+      "SRC-001",
+      "SRC-002",
+      "SRC-003",
+      "SRC-010",
+      "SRC-025",
+      "SRC-033",
+      "SRC-034"
+    ]
+  },
+  "ymyl": {
+    "trigger": "Specific consequential health, financial, legal or safety claims.",
+    "checks": [
+      "TRU-03",
+      "EVD-01"
+    ],
+    "sources": [
+      "SRC-012",
+      "SRC-013"
+    ]
+  },
+  "site_patterns": {
+    "trigger": "Requested site/batch review or concrete evidence of page-network, third-party, paid-link, UGC, or templated publication patterns.",
+    "checks": [
+      "POL-02",
+      "POL-03",
+      "POL-04",
+      "POL-05"
+    ],
+    "sources": [
+      "SRC-010",
+      "SRC-008",
+      "SRC-068",
+      "SRC-072"
+    ]
+  },
+  "page": {
+    "trigger": "Full-page readiness requested or page HTML/technical evidence supplied.",
+    "checks": [
+      "GOV-03",
+      "LNK-01",
+      "LNK-02",
+      "TEC-01",
+      "TEC-02",
+      "TEC-03",
+      "TEC-04",
+      "UX-01",
+      "UX-02",
+      "UX-03"
+    ],
+    "sources": [
+      "SRC-015",
+      "SRC-016",
+      "SRC-017",
+      "SRC-019",
+      "SRC-020",
+      "SRC-024",
+      "SRC-041",
+      "SRC-042",
+      "SRC-110",
+      "SRC-111",
+      "SRC-112",
+      "SRC-113",
+      "SRC-116",
+      "SRC-117"
+    ]
+  },
+  "structured_data": {
+    "trigger": "Structured data supplied/present or a specific rich-result goal.",
+    "checks": [
+      "SCH-01",
+      "SCH-02"
+    ],
+    "sources": [
+      "SRC-029",
+      "SRC-039",
+      "SRC-023",
+      "SRC-037"
+    ]
+  },
+  "reviews": {
+    "trigger": "Review, comparison or recommendation article, or existing review/star metadata.",
+    "checks": [
+      "REV-01",
+      "REV-02"
+    ],
+    "sources": [
+      "SRC-052",
+      "SRC-038",
+      "SRC-071"
+    ]
+  },
+  "commerce": {
+    "trigger": "Product/transaction claims, Product markup or Merchant/Shopping destination.",
+    "checks": [
+      "COM-01"
+    ],
+    "sources": [
+      "SRC-035",
+      "SRC-036",
+      "SRC-048",
+      "SRC-050",
+      "SRC-051",
+      "SRC-045"
+    ]
+  },
+  "discover": {
+    "trigger": "Discover goal or explicit Discover eligibility assertion.",
+    "checks": [
+      "DIS-01"
+    ],
+    "sources": [
+      "SRC-026",
+      "SRC-027",
+      "SRC-059"
+    ]
+  },
+  "news": {
+    "trigger": "Google News/news surfaces requested or asserted.",
+    "checks": [
+      "TRU-01",
+      "MET-01",
+      "MET-03",
+      "POL-01",
+      "SCH-02"
+    ],
+    "sources": [
+      "SRC-047",
+      "SRC-067",
+      "SRC-046",
+      "SRC-049",
+      "SRC-073",
+      "SRC-082",
+      "SRC-083",
+      "SRC-085",
+      "SRC-115"
+    ]
+  },
+  "ai_search": {
+    "trigger": "Google AI visibility, inclusion, snippets or measurement requested.",
+    "checks": [
+      "AI-01"
+    ],
+    "sources": [
+      "SRC-005",
+      "SRC-019",
+      "SRC-064",
+      "SRC-056",
+      "SRC-022",
+      "SRC-108"
+    ]
+  },
+  "images": {
+    "trigger": "Images, alt, image captions or licensing metadata supplied/targeted.",
+    "checks": [
+      "IMG-01",
+      "MET-02",
+      "TRU-02"
+    ],
+    "sources": [
+      "SRC-030",
+      "SRC-032",
+      "SRC-101"
+    ]
+  },
+  "video": {
+    "trigger": "Video is present or Google video visibility requested.",
+    "checks": [
+      "VID-01"
+    ],
+    "sources": [
+      "SRC-043",
+      "SRC-044"
+    ]
+  },
+  "paywall": {
+    "trigger": "Paywalled/subscription article.",
+    "checks": [
+      "POL-01",
+      "TEC-02",
+      "TEC-04",
+      "SCH-02"
+    ],
+    "sources": [
+      "SRC-040",
+      "SRC-096"
+    ]
+  },
+  "localized": {
+    "trigger": "Multiple languages/regions or hreflang review requested.",
+    "checks": [
+      "LOC-01"
+    ],
+    "sources": [
+      "SRC-065",
+      "SRC-105",
+      "SRC-106"
+    ]
+  },
+  "existing_page": {
+    "trigger": "Replacing an existing URL/page; access only within request.",
+    "checks": [
+      "UPD-01",
+      "UPD-02"
+    ],
+    "sources": [
+      "SRC-031",
+      "SRC-055",
+      "SRC-016",
+      "SRC-107",
+      "SRC-114"
+    ]
+  },
+  "release": {
+    "trigger": "Publication workflow readiness explicitly requested.",
+    "checks": [
+      "REL-01",
+      "REL-02"
+    ],
+    "sources": [
+      "SRC-109"
+    ]
+  },
+  "ugc": {
+    "trigger": "Comments, submissions, public profiles or community contributions are part of the observed article page.",
+    "checks": [
+      "POL-02",
+      "POL-05"
+    ],
+    "sources": [
+      "SRC-072",
+      "SRC-008"
+    ]
+  },
+  "privacy": {
+    "trigger": "Private/embargoed drafts or redacted public assets.",
+    "checks": [
+      "TRU-02",
+      "UPD-02"
+    ],
+    "sources": [
+      "SRC-100",
+      "SRC-101",
+      "SRC-102"
+    ]
+  },
+  "dynamic_page": {
+    "trigger": "Lazy-loaded, infinite-scroll, mobile variants, CSS/canvas main text or fragment-routed content.",
+    "checks": [
+      "TEC-04",
+      "UX-01"
+    ],
+    "sources": [
+      "SRC-103",
+      "SRC-104",
+      "SRC-113",
+      "SRC-116",
+      "SRC-117"
+    ]
+  },
+  "syndication": {
+    "trigger": "Licensed/republished article and original/partner visibility control requested.",
+    "checks": [
+      "POL-04",
+      "TEC-03"
+    ],
+    "sources": [
+      "SRC-073",
+      "SRC-107",
+      "SRC-114",
+      "SRC-115"
+    ]
+  },
+  "monetization": {
+    "trigger": "Google-served ads/AdSense/Ad Manager explicitly targeted or established; separate from organic Search.",
+    "checks": [
+      "POL-01",
+      "UX-01"
+    ],
+    "sources": [
+      "SRC-074",
+      "SRC-075",
+      "SRC-076",
+      "SRC-077",
+      "SRC-078",
+      "SRC-079",
+      "SRC-080",
+      "SRC-081",
+      "SRC-086"
+    ]
+  },
+  "media_provenance": {
+    "trigger": "Material third-party image/video event, date, place or origin claims.",
+    "checks": [
+      "EVD-01",
+      "TRU-02",
+      "IMG-01"
+    ],
+    "sources": [
+      "SRC-084",
+      "SRC-030",
+      "SRC-032"
+    ]
+  },
+  "recipe": {
+    "trigger": "Real dish-preparation page with requested or supplied Recipe markup.",
+    "checks": [
+      "SCH-01",
+      "SCH-02"
+    ],
+    "sources": [
+      "SRC-087",
+      "SRC-029"
+    ]
+  },
+  "forum": {
+    "trigger": "Real user-generated forum/social discussion with supplied or requested markup.",
+    "checks": [
+      "SCH-01",
+      "SCH-02"
+    ],
+    "sources": [
+      "SRC-088",
+      "SRC-072"
+    ]
+  },
+  "qapage": {
+    "trigger": "Single question with user answers, or documented educational-homework exception.",
+    "checks": [
+      "SCH-01",
+      "SCH-02"
+    ],
+    "sources": [
+      "SRC-089"
+    ]
+  },
+  "dataset": {
+    "trigger": "A real dataset landing page and data provenance, not merely an article table.",
+    "checks": [
+      "SCH-01",
+      "SCH-02",
+      "EVD-04"
+    ],
+    "sources": [
+      "SRC-090"
+    ]
+  },
+  "carousel": {
+    "trigger": "An actual supported host list: Recipe, Course, Restaurant or Movie.",
+    "checks": [
+      "SCH-01",
+      "SCH-02"
+    ],
+    "sources": [
+      "SRC-091"
+    ]
+  },
+  "movie_list": {
+    "trigger": "A real movie list seeking the supported movie carousel.",
+    "checks": [
+      "SCH-01",
+      "SCH-02"
+    ],
+    "sources": [
+      "SRC-092",
+      "SRC-091",
+      "SRC-038"
+    ]
+  },
+  "software_app": {
+    "trigger": "Substantive software application details seeking the software-app result.",
+    "checks": [
+      "SCH-01",
+      "SCH-02",
+      "REV-02"
+    ],
+    "sources": [
+      "SRC-093"
+    ]
+  },
+  "education_qa": {
+    "trigger": "Actual educational flashcards in a currently supported language/region.",
+    "checks": [
+      "SCH-01",
+      "SCH-02"
+    ],
+    "sources": [
+      "SRC-094"
+    ]
+  },
+  "course_list": {
+    "trigger": "Genuine course catalog with matching current Course list conditions.",
+    "checks": [
+      "SCH-01",
+      "SCH-02"
+    ],
+    "sources": [
+      "SRC-095",
+      "SRC-091"
+    ]
+  },
+  "web_stories": {
+    "trigger": "Actual Web Stories, not an ordinary article with slides/video.",
+    "checks": [
+      "SCH-02",
+      "MET-01",
+      "IMG-01"
+    ],
+    "sources": [
+      "SRC-097",
+      "SRC-098",
+      "SRC-099"
+    ]
+  }
+}

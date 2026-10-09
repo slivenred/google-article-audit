@@ -1,0 +1,50 @@
+{
+  "name": "google-article-audit-portable",
+  "version": "1.0.0",
+  "description": "Portable evidence-backed Google article audit guidance: Agent Skill, read-only local MCP server, and CLI.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "google-article-audit": "src/cli.js",
+    "google-article-audit-mcp": "src/server.js"
+  },
+  "files": [
+    "src",
+    "skills",
+    "schemas",
+    "examples",
+    "docs",
+    "README.md",
+    "README.en.md",
+    "NOTICE.md",
+    "PROVENANCE.json",
+    "scripts",
+    "tests",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "check": "node src/cli.js check-bundle",
+    "smoke": "node scripts/smoke-mcp.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.3.1",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slivenred/google-article-audit.git"
+  },
+  "homepage": "https://github.com/slivenred/google-article-audit#readme",
+  "bugs": {
+    "url": "https://github.com/slivenred/google-article-audit/issues"
+  }
+}

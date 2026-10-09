@@ -1,0 +1,338 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "artifact": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        }
+      },
+      "required": [
+        "id",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "audit-only",
+        "audit+optimize"
+      ]
+    },
+    "requested_scope": {
+      "minItems": 1,
+      "maxItems": 6,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "content_only",
+          "provided_metadata",
+          "rendered_page",
+          "site_sample",
+          "search_console",
+          "owner_records"
+        ]
+      }
+    },
+    "observed_scope": {
+      "minItems": 1,
+      "maxItems": 6,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "content_only",
+          "provided_metadata",
+          "rendered_page",
+          "site_sample",
+          "search_console",
+          "owner_records"
+        ]
+      }
+    },
+    "scope_note": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 8000
+    },
+    "decisions": {
+      "type": "object",
+      "properties": {
+        "editorial": {
+          "type": "string",
+          "enum": [
+            "BLOCKED",
+            "NEEDS_EVIDENCE",
+            "READY_WITH_WARNINGS",
+            "READY"
+          ]
+        },
+        "full_page": {
+          "type": "string",
+          "enum": [
+            "NOT_ASSESSED",
+            "BLOCKED",
+            "NEEDS_EVIDENCE",
+            "REVIEW_READY_WITH_WARNINGS",
+            "REVIEW_READY"
+          ]
+        },
+        "publication_authorization": {
+          "type": "string",
+          "enum": [
+            "NOT_REQUESTED",
+            "PENDING",
+            "APPROVED_FOR_VERSION",
+            "REVOKED_OR_STALE"
+          ]
+        },
+        "approved_version": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "authorization_evidence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 8000
+        }
+      },
+      "required": [
+        "editorial",
+        "full_page",
+        "publication_authorization"
+      ],
+      "additionalProperties": false
+    },
+    "findings": {
+      "maxItems": 200,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "check_id": {
+            "type": "string",
+            "maxLength": 20
+          },
+          "location": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 8000
+          },
+          "claim": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 8000
+          },
+          "rule_class": {
+            "type": "string",
+            "enum": [
+              "search_policy",
+              "official_recommendation",
+              "rater_concept",
+              "technical_eligibility",
+              "surface_requirement",
+              "internal_standard"
+            ]
+          },
+          "applicability": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 8000
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "PASS",
+              "FAIL",
+              "UNKNOWN",
+              "NA"
+            ]
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 8000
+          },
+          "gap": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 8000
+          },
+          "na_reason": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 8000
+          },
+          "fix": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 8000
+          },
+          "recheck": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 8000
+          },
+          "priority": {
+            "type": "string",
+            "enum": [
+              "P0",
+              "P1",
+              "P2"
+            ]
+          },
+          "gate": {
+            "type": "string",
+            "enum": [
+              "none",
+              "editorial",
+              "full_page",
+              "surface"
+            ]
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "sources": {
+            "maxItems": 20,
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "source_id": {
+                  "type": "string",
+                  "pattern": "^SRC-\\d{3}$"
+                },
+                "url": {
+                  "type": "string",
+                  "maxLength": 2048,
+                  "format": "uri"
+                },
+                "section": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 8000
+                },
+                "checked_on": {
+                  "type": "string",
+                  "format": "date",
+                  "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                },
+                "evidence_state": {
+                  "type": "string",
+                  "enum": [
+                    "live_read",
+                    "cached_read",
+                    "unavailable",
+                    "user_supplied"
+                  ]
+                }
+              },
+              "required": [
+                "url",
+                "evidence_state"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "location",
+          "claim",
+          "rule_class",
+          "applicability",
+          "status",
+          "fix",
+          "recheck",
+          "gate",
+          "required",
+          "sources"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "remaining_questions": {
+      "maxItems": 100,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 8000
+      }
+    },
+    "known_future_publication_blockers": {
+      "maxItems": 100,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 8000
+      }
+    },
+    "revision": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "artifact_reference": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 8000
+        },
+        "recheck_result": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 8000
+        },
+        "provisional": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "version",
+        "artifact_reference",
+        "recheck_result",
+        "provisional"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "artifact",
+    "mode",
+    "requested_scope",
+    "observed_scope",
+    "scope_note",
+    "decisions",
+    "findings",
+    "remaining_questions",
+    "known_future_publication_blockers"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "google-article-audit": {
+      "type": "stdio",
+      "command": "/ABSOLUTE/PATH/TO/node",
+      "args": ["/ABSOLUTE/PATH/TO/google-article-audit-portable/src/server.js"]
+    }
+  }
+}

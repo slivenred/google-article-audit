@@ -1,0 +1,5 @@
+# Merge this section into ~/.codex/config.toml. Do not overwrite existing settings.
+# Replace BOTH placeholders with absolute paths on your machine.
+[mcp_servers.google-article-audit]
+command = "/ABSOLUTE/PATH/TO/node"
+args = ["/ABSOLUTE/PATH/TO/google-article-audit-portable/src/server.js"]

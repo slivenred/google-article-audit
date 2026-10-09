@@ -1,0 +1,3822 @@
+{
+  "as_of": "2026-10-08",
+  "scope": "Google Search and conditional publication surfaces, not all Google product policies. Cached reads are not new live verification. Historical context is not current rule authority.",
+  "source_count": 117,
+  "current_recommended_source_count": 110,
+  "historical_reference_source_count": 7,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "title": "Creating helpful, reliable, people-first content",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "core",
+      "recommended_current": true,
+      "authority": [
+        "Self-assessment recommendations, not an official numerical ranking rubric.",
+        "People-first content self-assessment"
+      ],
+      "applicability_trigger": [
+        "所有文章先確認的核心範圍；仍依條款與證據適用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2022-10-13",
+          "source_alias": "UPD-03"
+        },
+        {
+          "field": "date_updated",
+          "value": "2026-10-05",
+          "source_alias": "UPD-03"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Main content; Who (created the content); Get to know E-E-A-T and the quality rater guidelines.",
+          "confirmed_change": "Current page explicitly covers main-content effort, originality, talent/skill and accuracy, and deceptive creator profiles. A dated addition of those passages is not confirmed.",
+          "binding_policy_vs_recommendation": "Self-assessment recommendations, not an official numerical ranking rubric.",
+          "official_category": "People-first content self-assessment",
+          "limitations": [
+            "Cannot substantiate a September 2026 addition from the live changelog or current footer.",
+            "Effort is not an hours-worked quota. E-E-A-T is not a specific ranking factor; rater scores do not directly set rankings.",
+            "Main content includes functional tools and useful user contributions, not only article text."
+          ],
+          "date_evidence_type": "Original documentation consolidation in UPD-01; current footer only for 2026 date"
+        },
+        {
+          "sections": [
+            "Get to know E-E-A-T and the quality rater guidelines",
+            "Main content",
+            "Who (created the content)",
+            "How (the content was created)",
+            "Why (was the content created)"
+          ],
+          "claim_summary": "E-E-A-T is not itself one specific ranking factor. Raters do not control page rankings and their data is not directly used in ranking algorithms. Context determines relevant evidence. The page explicitly rejects deceptive creator profiles and false credentials. Originality, accuracy and useful production transparency support people-first evaluation.",
+          "evidence_limits": [
+            "No public numeric E-E-A-T measurement is supplied here; do not label a local rubric a Google score.",
+            "AI disclosures are contextual recommendations, not a blanket requirement for every page."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-002",
+      "title": "Google Search Essentials",
+      "url": "https://developers.google.com/search/docs/essentials",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "core",
+      "recommended_current": true,
+      "authority": [
+        "umbrella: requirements, policies, recommendations"
+      ],
+      "applicability_trigger": [
+        "所有文章先確認的核心範圍；仍依條款與證據適用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_date",
+          "value": "2025-12-10",
+          "source_alias": "P01"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "SRC-003",
+      "title": "Google Search's guidance on using generative AI content on your website",
+      "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "core",
+      "recommended_current": true,
+      "authority": [
+        "Quality guidance; incorporates enforceable spam, structured-data and Merchant Center requirements by reference.",
+        "Search fundamentals guidance",
+        "guidance with links to applicable policies",
+        "recommendation_with_spam_policy_reference"
+      ],
+      "applicability_trigger": [
+        "AI-assisted/generated text or metadata"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2025-05-21",
+          "source_alias": "UPD-02"
+        },
+        {
+          "field": "date_updated",
+          "value": "2026-10-01",
+          "source_alias": "UPD-02"
+        },
+        {
+          "field": "displayed_date",
+          "value": "2026-10-01",
+          "source_alias": "P04"
+        },
+        {
+          "field": "page_last_updated",
+          "value": "2026-10-01",
+          "source_alias": "ai_generated_content"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Introduction; Focus on accuracy, quality, and relevance; Give users context; footer.",
+          "confirmed_change": "October 1 change log explicitly confirms incorporation of rater guidance. Current page links sections 4.6.5/4.6.6 and recommends manual factual review, including metadata.",
+          "binding_policy_vs_recommendation": "Quality guidance; incorporates enforceable spam, structured-data and Merchant Center requirements by reference.",
+          "official_category": "Search fundamentals guidance",
+          "limitations": [
+            "Current wording about models predicting word sequences is verified. Its first insertion date is not separately established by the changelog.",
+            "Do not infer a ban on AI-assisted content or a mandatory disclosure on every page.",
+            "The model explanation is a caution about generation, not a claim that every AI system lacks retrieval tools."
+          ],
+          "date_evidence_type": "Publication and update confirmed by UPD-01; English footer matches update"
+        },
+        {
+          "sections": [
+            "Opening guidance and links to QRG 4.6.5 and 4.6.6",
+            "Focus on accuracy, quality, and relevance",
+            "Give users context"
+          ],
+          "claim_summary": "Using AI for research or structure can be useful. Mass production without user value may breach scaled-content policy. Google calls for manual fact-checking of AI output, including metadata, and useful context on its production. Separate Merchant Center requirements should not be generalized to every website.",
+          "evidence_limits": [
+            "The presence of AI assistance is not itself a failure.",
+            "QRG ratings do not establish actual policy enforcement or a ranking outcome."
+          ]
+        },
+        {
+          "conditional_trigger": "AI-assisted/generated text or metadata",
+          "caveats": "AI use alone is not a failure; scale without value can violate spam policy. Do not fabricate human authorship or experience. Ordinary Search disclosure advice is not a universal labeling mandate."
+        }
+      ]
+    },
+    {
+      "id": "SRC-004",
+      "title": "Google Search's guidance on using third-party SEO tools, services, and advice",
+      "url": "https://developers.google.com/search/docs/fundamentals/third-party-seo",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "core",
+      "recommended_current": true,
+      "authority": [
+        "Recommendation",
+        "SEO evidence and tools guidance"
+      ],
+      "applicability_trigger": [
+        "所有文章先確認的核心範圍；仍依條款與證據適用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2026-06-05",
+          "source_alias": "UPD-06"
+        },
+        {
+          "field": "date_updated",
+          "value": "2026-06-05",
+          "source_alias": "UPD-06"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Evaluate and verify external SEO advice; Think critically about using third-party SEO tools and services.",
+          "confirmed_change": "New guide for evaluating outside SEO/AEO/GEO advice and tools against official evidence.",
+          "binding_policy_vs_recommendation": "Recommendation",
+          "official_category": "SEO evidence and tools guidance",
+          "limitations": [
+            "Google does not approve third-party tools or guarantee their predictions. This includes the proposed audit skill."
+          ],
+          "date_evidence_type": "June 5 changelog and footer"
+        }
+      ]
+    },
+    {
+      "id": "SRC-005",
+      "title": "Optimizing your website for generative AI features on Google Search",
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Recommendations and technical explanations; no special AI ranking guarantee.",
+        "AI-search optimization guidance",
+        "recommendation_with_eligibility_gates"
+      ],
+      "applicability_trigger": [
+        "AI-feature visibility is in scope"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2026-05-15",
+          "source_alias": "UPD-05"
+        },
+        {
+          "field": "date_updated",
+          "value": "2026-07-10",
+          "source_alias": "UPD-05"
+        },
+        {
+          "field": "page_last_updated",
+          "value": "2026-07-10",
+          "source_alias": "ai_optimization"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Create valuable, non-commodity content; Mythbusting generative AI search; footer.",
+          "confirmed_change": "New May 15 resource; June 15 clarification says Google Search ignores llms.txt for visibility and ranking. Current guide favors differentiated content and ordinary SEO.",
+          "binding_policy_vs_recommendation": "Recommendations and technical explanations; no special AI ranking guarantee.",
+          "official_category": "AI-search optimization guidance",
+          "limitations": [
+            "July 10 footer does not identify which passage changed that day.",
+            "No guarantee of citation, inclusion or ranking. Recommendations address Google Search."
+          ],
+          "date_evidence_type": "May 15 changelog and launch blog; current footer July 10; June 15 llms.txt clarification"
+        },
+        {
+          "conditional_trigger": "AI-feature visibility is in scope",
+          "caveats": "No special schema, llms.txt, AI-only rewrite, exact phrase coverage, mandatory chunking or ideal word count. Do not convert optional media or agentic guidance into universal requirements."
+        }
+      ]
+    },
+    {
+      "id": "SRC-006",
+      "title": "Content policies for Google Search",
+      "url": "https://support.google.com/websearch/answer/10622781",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "core",
+      "recommended_current": true,
+      "authority": [
+        "overall versus Search-feature content policies"
+      ],
+      "applicability_trigger": [
+        "所有文章先確認的核心範圍；仍依條款與證據適用。"
+      ],
+      "observed_dates": [],
+      "notes": []
+    },
+    {
+      "id": "SRC-007",
+      "title": "Manual actions report",
+      "url": "https://support.google.com/webmasters/answer/9044175",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "manual-enforcement evidence and remediation"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [],
+      "notes": []
+    },
+    {
+      "id": "SRC-008",
+      "title": "Qualify outbound links",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "paid-link qualification and UGC recommendations",
+        "conditional_link_qualification"
+      ],
+      "applicability_trigger": [
+        "Paid, affiliate, user-generated or untrusted outbound links"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "outbound_relationships"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Paid, affiliate, user-generated or untrusted outbound links",
+          "caveats": "sponsored is preferred for paid links; ugc is recommended for user contributions. Relationship cannot reliably be inferred solely from an URL."
+        }
+      ]
+    },
+    {
+      "id": "SRC-009",
+      "title": "Security issues report",
+      "url": "https://support.google.com/webmasters/answer/9044101",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "security findings and warnings"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [],
+      "notes": []
+    },
+    {
+      "id": "SRC-010",
+      "title": "Spam policies for Google web search",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "core",
+      "recommended_current": true,
+      "authority": [
+        "Enforceable Search eligibility/spam policy; potential demotion or removal.",
+        "Search Essentials spam policy",
+        "enforceable web Search spam policies"
+      ],
+      "applicability_trigger": [
+        "所有文章先確認的核心範圍；仍依條款與證據適用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2022-10-13",
+          "source_alias": "UPD-07"
+        },
+        {
+          "field": "date_updated",
+          "value": "2026-08-28",
+          "source_alias": "UPD-07"
+        },
+        {
+          "field": "displayed_date",
+          "value": "2026-08-28",
+          "source_alias": "P02"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Opening definition; Scaled content abuse; Scraping; Site reputation policy and More detailed guidance.",
+          "confirmed_change": "May 15 explicitly extends clarification to manipulating generative AI responses. August 28 revises site-reputation treatment.",
+          "binding_policy_vs_recommendation": "Enforceable Search eligibility/spam policy; potential demotion or removal.",
+          "official_category": "Search Essentials spam policy",
+          "limitations": [
+            "An auditor cannot know Google's internal determination.",
+            "Current editorial-integration factors apply globally; enforcement impact differs by searcher location.",
+            "No single integration factor proves compliance; do not use older blanket summaries unchanged."
+          ],
+          "date_evidence_type": "October 2022 launch, March 2024 expansion, May/August 2026 changes in UPD-01; footer"
+        }
+      ]
+    },
+    {
+      "id": "SRC-011",
+      "title": "Improving Search with rigorous testing",
+      "url": "https://www.google.com/search/howsearchworks/how-search-works/rigorous-testing",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "sections": [
+            "719,326 search quality tests",
+            "Surfacing Google Search results",
+            "124,942 side-by-side experiments"
+          ],
+          "claim_summary": "Google describes external rater feedback as benchmarking and experiment evaluation. It says these ratings do not directly affect rankings; automated systems surface results.",
+          "evidence_limits": [
+            "Numbers describe the year stated on the page, not a current annual count."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-012",
+      "title": "Search Quality Evaluator Guidelines (General Guidelines)",
+      "url": "https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "core",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "所有文章先確認的核心範圍；仍依條款與證據適用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "document_date",
+          "value": "2025-09-11",
+          "source_alias": "qrg_full"
+        }
+      ],
+      "notes": [
+        {
+          "claim_summary": "Rater guidance separates query-independent page quality from query-dependent usefulness. Trust is central. Quality depends on purpose, main content, evidence and reputation; YMYL raises scrutiny. AI use alone determines neither effort nor quality. Site-scale abuse and near-entire-page low-value reuse are different checks. Genuine syndication is not treated as scraping. Missing reputation is not automatically negative.",
+          "evidence_limits": [
+            "Human evaluation guidance is not a mechanical ranking formula, manual-action verdict, public E-E-A-T score or ranking guarantee.",
+            "The PDF is older than current Search Central documentation; verify live policy when policy definitions or enforcement matter.",
+            "Examples illustrate judgment; their incidental historical facts are not current factual references."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-013",
+      "title": "Search Quality Rater Guidelines: An Overview",
+      "url": "https://services.google.com/fh/files/misc/hsw-sqrg.pdf",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "document_date",
+          "value": "2023-11",
+          "source_alias": "qrg_overview"
+        }
+      ],
+      "notes": [
+        {
+          "sections": [
+            {
+              "section": "03: The Search Quality Rating Process",
+              "pages": [
+                16,
+                17,
+                19,
+                20,
+                22,
+                23,
+                24,
+                25,
+                26,
+                28,
+                29,
+                30,
+                31
+              ]
+            }
+          ],
+          "claim_summary": "The overview explains page quality and query usefulness as distinct tasks. Individual raters do not directly change rankings; aggregated judgments evaluate and improve systems. It summarizes purpose, harm, content, creator and reputation review, including heightened YMYL standards.",
+          "evidence_limits": [
+            "November 2023 overview is older than September 2025 full guidelines.",
+            "The overview is a process explanation, not an SEO scorecard."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-014",
+      "title": "Build and submit a sitemap",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "observed_last_updated_utc",
+          "value": "2026-07-08",
+          "source_alias": "legacy:G29"
+        }
+      ],
+      "notes": [
+        {
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "id": "SRC-015",
+      "title": "Google Search technical requirements",
+      "url": "https://developers.google.com/search/docs/essentials/technical",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "core",
+      "recommended_current": true,
+      "authority": [
+        "technical eligibility"
+      ],
+      "applicability_trigger": [
+        "所有文章先確認的核心範圍；仍依條款與證據適用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_date",
+          "value": "2025-12-18",
+          "source_alias": "P03"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "SRC-016",
+      "title": "How to specify a canonical URL with rel=\"canonical\" and other methods",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "observed_last_updated_utc",
+          "value": "2026-07-10",
+          "source_alias": "legacy:G23"
+        }
+      ],
+      "notes": [
+        {
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "id": "SRC-017",
+      "title": "Link best practices for Google",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "recommendation_and_technical_guidance"
+      ],
+      "applicability_trigger": [
+        "Internal/external links or citations appear"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "links"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Internal/external links or citations appear",
+          "caveats": "No ideal link count or blanket external-citation quota. Citation relevance can be assessed from prose; crawling and orphan pages require more evidence."
+        }
+      ]
+    },
+    {
+      "id": "SRC-018",
+      "title": "Method: index.inspect",
+      "url": "https://developers.google.com/webmaster-tools/v1/urlInspection.index/inspect",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "observed_last_updated_utc",
+          "value": "2024-07-23",
+          "source_alias": "legacy:G38"
+        }
+      ],
+      "notes": [
+        {
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "id": "SRC-019",
+      "title": "Robots meta tag, data-nosnippet, and X-Robots-Tag specifications",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "technical_control_specification"
+      ],
+      "applicability_trigger": [
+        "Indexing, snippets, image/video preview or AI exposure is assessed"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "Indexing, snippets, image/video preview or AI exposure is assessed",
+          "caveats": "Reading manuscript text does not prove index/snippet eligibility. Controls are only read when crawlers can access the resource."
+        }
+      ]
+    },
+    {
+      "id": "SRC-020",
+      "title": "Understand the JavaScript SEO basics",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "observed_last_updated_utc",
+          "value": "2026-03-04",
+          "source_alias": "legacy:G25"
+        }
+      ],
+      "notes": [
+        {
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "id": "SRC-021",
+      "title": "Using the Indexing API",
+      "url": "https://developers.google.com/search/apis/indexing-api/v3/using-api",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "observed_last_updated_utc",
+          "value": "2026-07-16",
+          "source_alias": "legacy:G39"
+        }
+      ],
+      "notes": [
+        {
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "id": "SRC-022",
+      "title": "AI features and your website",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current_with_conflict_caveat",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "overview_with_recency_caveat"
+      ],
+      "applicability_trigger": [
+        "AI Overviews or AI Mode visibility is desired"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "AI Overviews or AI Mode visibility is desired",
+          "caveats": "Older overview says AI traffic is in Web reporting and no additional technical requirements. Newer specific official pages document AI control and dedicated impressions reports; do not treat this overview as exhaustive."
+        }
+      ],
+      "conflict_notes": [
+        "AI 概覽的報表與控制敘述須對照 SRC-056 與 SRC-064，不能沿用較舊概述。"
+      ]
+    },
+    {
+      "id": "SRC-023",
+      "title": "Article structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/article",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "optional_enhancement_with_conditional_requirements"
+      ],
+      "applicability_trigger": [
+        "News, blog or sports article markup is implemented or requested"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "News, blog or sports article markup is implemented or requested",
+          "caveats": "No required Article properties; applicable properties are recommended. Article markup is not a prerequisite for Google News/Top stories. Do not invent authors or credentials."
+        }
+      ]
+    },
+    {
+      "id": "SRC-024",
+      "title": "Avoid intrusive interstitials and dialogs",
+      "url": "https://developers.google.com/search/docs/appearance/avoid-intrusive-interstitials",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "recommendation_with_exceptions"
+      ],
+      "applicability_trigger": [
+        "Dialogs, banners, consent or age gates exist"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "interstitials"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Dialogs, banners, consent or age gates exist",
+          "caveats": "Mandatory interstitials are exempt from the promotional-overlay guidance. A manuscript cannot prove this check passes."
+        }
+      ]
+    },
+    {
+      "id": "SRC-025",
+      "title": "Control your snippets in search results",
+      "url": "https://developers.google.com/search/docs/appearance/snippet",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "recommendation_and_control"
+      ],
+      "applicability_trigger": [
+        "Search snippets or meta descriptions are in scope"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2026-04-20",
+          "source_alias": "snippets"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Search snippets or meta descriptions are in scope",
+          "caveats": "No prescribed character count. Google often extracts page text and may show different snippets by query. Expandable sections are specifically relevant to Read more links, not universally forbidden."
+        }
+      ]
+    },
+    {
+      "id": "SRC-026",
+      "title": "Discover and your website",
+      "url": "https://developers.google.com/search/docs/appearance/google-discover",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "optional_channel_eligibility_and_recommendation"
+      ],
+      "applicability_trigger": [
+        "Discover is an intended or observed channel"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2026-03-09",
+          "source_alias": "discover_guidance"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Discover is an intended or observed channel",
+          "caveats": "Indexed policy-compliant content is automatically eligible; no special tags/schema are required. Recommendations improve opportunity, not guarantee appearance. Older helpful material can appear."
+        }
+      ]
+    },
+    {
+      "id": "SRC-027",
+      "title": "Discover content policies",
+      "url": "https://support.google.com/websearch/answer/9982767",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "optional_channel_content_policy"
+      ],
+      "applicability_trigger": [
+        "Discover audit requested"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "Discover audit requested",
+          "caveats": "These checks target Discover eligibility; do not silently present every condition as a universal web-ranking rule."
+        }
+      ]
+    },
+    {
+      "id": "SRC-028",
+      "title": "Featured snippets and your website",
+      "url": "https://developers.google.com/search/docs/appearance/featured-snippets",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "feature_explanation_and_controls"
+      ],
+      "applicability_trigger": [
+        "Featured snippets or PAA are requested"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "featured_snippets"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Featured snippets or PAA are requested",
+          "caveats": "There is no markup that elects a page as a featured snippet and no exact minimum snippet length."
+        }
+      ]
+    },
+    {
+      "id": "SRC-029",
+      "title": "General structured data guidelines",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "rich_result_eligibility_policy"
+      ],
+      "applicability_trigger": [
+        "Any supported structured data is implemented"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2026-07-10",
+          "source_alias": "structured_data_policies"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Any supported structured data is implemented",
+          "caveats": "Passing a validator does not prove content-policy compliance or guarantee display. A structured-data manual action removes rich-result eligibility, not by itself ordinary web ranking."
+        }
+      ]
+    },
+    {
+      "id": "SRC-030",
+      "title": "Google image SEO best practices",
+      "url": "https://developers.google.com/search/docs/appearance/google-images",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "recommendation_and_technical_requirements"
+      ],
+      "applicability_trigger": [
+        "Page contains meaningful images or image search is relevant"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2026-03-02",
+          "source_alias": "images"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Page contains meaningful images or image search is relevant",
+          "caveats": "CSS backgrounds are not indexed as images. Filenames are light clues. Preferred-image markup/og:image influences automated selection; no guaranteed thumbnail."
+        }
+      ]
+    },
+    {
+      "id": "SRC-031",
+      "title": "Google Search's core updates and your website",
+      "url": "https://developers.google.com/search/docs/appearance/core-updates",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Diagnostic recommendations, not guaranteed recovery procedure.",
+        "Traffic-drop evaluation and recovery guidance"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2022-10-13",
+          "source_alias": "UPD-18"
+        },
+        {
+          "field": "date_updated",
+          "value": "2025-12-10",
+          "source_alias": "UPD-18"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Check if there's a traffic drop; Assessing a large drop; How long does it take.",
+          "confirmed_change": "December 9 clarification: content improvements can show gains before the next major core update because smaller updates also occur.",
+          "binding_policy_vs_recommendation": "Diagnostic recommendations, not guaranteed recovery procedure.",
+          "official_category": "Traffic-drop evaluation and recovery guidance",
+          "limitations": [
+            "Improvement can take days or months; no recovery guarantee.",
+            "A traffic decline alone does not prove policy violation or low-quality writing."
+          ],
+          "date_evidence_type": "Original consolidation and December 9 2025 change in UPD-01; footer December 10"
+        }
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "title": "Image metadata in Google Images",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "optional_enhancement_with_conditional_requirements"
+      ],
+      "applicability_trigger": [
+        "Image creator/credit/license or Licensable badge is relevant"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "Image creator/credit/license or Licensable badge is relevant",
+          "caveats": "One supported metadata method can suffice; both are not required. Conflicts favor structured data. Do not infer copyright ownership from possession of a file."
+        }
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "title": "Influence your byline dates in Google Search",
+      "url": "https://developers.google.com/search/docs/appearance/publication-dates",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "recommendation_and_feature_semantics"
+      ],
+      "applicability_trigger": [
+        "Publication/update dates are supplied or date display matters"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "byline_dates"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Publication/update dates are supplied or date display matters",
+          "caveats": "Providing dates is not a mandate to repeatedly refresh evergreen content. Search date display is not guaranteed."
+        }
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "title": "Influencing your title links in search results",
+      "url": "https://developers.google.com/search/docs/appearance/title-link",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "recommendation"
+      ],
+      "applicability_trigger": [
+        "Any indexable web page"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "title_links"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Any indexable web page",
+          "caveats": "No fixed character limit. Google selects title links automatically; matching the supplied title cannot be guaranteed."
+        }
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "title": "Introduction to Product structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/product",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "optional_enhancement_routing"
+      ],
+      "applicability_trigger": [
+        "Product-rich presentation is desired"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "product_markup_routing"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Product-rich presentation is desired",
+          "caveats": "Product markup and Merchant Center feeds are distinct ways to supply data; conditional capabilities differ. Review both feature guides before proposing a schema type."
+        }
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "title": "Product snippet structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "optional_enhancement_with_conditional_requirements"
+      ],
+      "applicability_trigger": [
+        "Editorial product reviews or other product snippet use cases"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "Editorial product reviews or other product snippet use cases",
+          "caveats": "Pros/cons enhancement excludes merchant product pages and customer reviews and has language restrictions; do not fabricate ratings to satisfy markup."
+        }
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "title": "Profile page structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/profile-page",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "optional_enhancement_with_conditional_requirements"
+      ],
+      "applicability_trigger": [
+        "Author, employee, community-member or creator profile page"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "Author, employee, community-member or creator profile page",
+          "caveats": "This is not a requirement for every article or business homepage; third-party organization review pages do not fit the profile use case."
+        }
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "title": "Review snippet structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Feature eligibility requirements; some surrounding advice is recommended rather than required.",
+        "Feature-specific structured-data eligibility",
+        "rich_result_eligibility_policy"
+      ],
+      "applicability_trigger": [
+        "Review/AggregateRating rich results are implemented or desired"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_updated",
+          "value": "2026-09-08",
+          "source_alias": "UPD-09"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Guidelines, fake/undisclosed incentivized review bullet and examples; footer.",
+          "confirmed_change": "July 24 guideline disallows fabricated reviews and undisclosed incentivized reviews in visible content and markup.",
+          "binding_policy_vs_recommendation": "Feature eligibility requirements; some surrounding advice is recommended rather than required.",
+          "official_category": "Feature-specific structured-data eligibility",
+          "limitations": [
+            "Do not call September 8 the date this rule was introduced.",
+            "Passing syntax validation is insufficient for review eligibility."
+          ],
+          "date_evidence_type": "July 24 guideline addition in UPD-01; current footer September 8"
+        },
+        {
+          "conditional_trigger": "Review/AggregateRating rich results are implemented or desired",
+          "caveats": "LocalBusiness/Organization self-controlled reviews are ineligible for stars, including embedded widgets. Reviewer comments/names accompanying ratings are recommended, not universal requirements."
+        }
+      ]
+    },
+    {
+      "id": "SRC-039",
+      "title": "Structured data markup that Google Search supports",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/search-gallery",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "observed_last_updated_utc",
+          "value": "2026-06-15",
+          "source_alias": "legacy:G15"
+        }
+      ],
+      "notes": [
+        {
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "id": "SRC-040",
+      "title": "Subscription and paywalled content markup",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/paywalled-content",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "conditional_implementation_guidance"
+      ],
+      "applicability_trigger": [
+        "Indexed content has paid/registration-only sections"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2026-09-08",
+          "source_alias": "paywalls"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Indexed content has paid/registration-only sections",
+          "caveats": "Route to technical review; prose alone cannot establish indexing or implementation safety. Do not remove a paywall merely to improve an article score."
+        }
+      ]
+    },
+    {
+      "id": "SRC-041",
+      "title": "Understanding Core Web Vitals and Google search results",
+      "url": "https://developers.google.com/search/docs/appearance/core-web-vitals",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "observed_last_updated_utc",
+          "value": "2025-12-10",
+          "source_alias": "legacy:G13"
+        }
+      ],
+      "notes": [
+        {
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "id": "SRC-042",
+      "title": "Understanding page experience in Google Search results",
+      "url": "https://developers.google.com/search/docs/appearance/page-experience",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "recommendation_and_ranking_context"
+      ],
+      "applicability_trigger": [
+        "Published page UX can be inspected"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2026-09-22",
+          "source_alias": "page_experience"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Published page UX can be inspected",
+          "caveats": "No single page-experience score or top-ranking guarantee. Core Web Vitals are used in ranking; perfect tool scores are not a content-quality requirement."
+        }
+      ]
+    },
+    {
+      "id": "SRC-043",
+      "title": "Video SEO best practices",
+      "url": "https://developers.google.com/search/docs/appearance/video",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "video_feature_eligibility_and_recommendation"
+      ],
+      "applicability_trigger": [
+        "Embedded video or Google video features are in scope"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "Embedded video or Google video features are in scope",
+          "caveats": "A complementary video in an article does not turn it into a watch page. That article may still appear as a text result. Indexing the page does not guarantee indexing its video."
+        }
+      ]
+    },
+    {
+      "id": "SRC-044",
+      "title": "Video structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/video",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "optional_enhancement_with_conditional_requirements"
+      ],
+      "applicability_trigger": [
+        "VideoObject, key moments or LIVE badge is implemented/requested"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "VideoObject, key moments or LIVE badge is implemented/requested",
+          "caveats": "creator/author is recommended, not universal. Google can detect key moments automatically; specific enhancements carry separate requirements."
+        }
+      ]
+    },
+    {
+      "id": "SRC-045",
+      "title": "AI-generated content (Merchant Center)",
+      "url": "https://support.google.com/merchants/answer/14743464",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "conditional_channel_requirement"
+      ],
+      "applicability_trigger": [
+        "Merchant Center uses AI-generated images, product titles or descriptions"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "Merchant Center uses AI-generated images, product titles or descriptions",
+          "caveats": "This is a concrete channel-specific labeling requirement, not a blanket requirement to label every AI-assisted web article."
+        }
+      ]
+    },
+    {
+      "id": "SRC-046",
+      "title": "Best practices for your article pages",
+      "url": "https://support.google.com/news/publisher-center/answer/9607104",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "news_recommendations_and_conditional_requirements"
+      ],
+      "applicability_trigger": [
+        "News article indexing/display is in scope"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "News article indexing/display is in scope",
+          "caveats": "News-specific headline-length suggestions must not become general Search limits; current Article markup documentation no longer sets a universal headline character cap."
+        }
+      ]
+    },
+    {
+      "id": "SRC-047",
+      "title": "Google News policies",
+      "url": "https://support.google.com/news/publisher-center/answer/6204050",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "optional_channel_content_policy"
+      ],
+      "applicability_trigger": [
+        "News surfaces are relevant"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "News surfaces are relevant",
+          "caveats": "These policies apply to news surfaces; ineligibility there need not mean removal from all Search. Do not treat a publication policy as a universal article template."
+        }
+      ]
+    },
+    {
+      "id": "SRC-048",
+      "title": "Merchant listing structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/merchant-listing",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "optional_enhancement_with_conditional_requirements"
+      ],
+      "applicability_trigger": [
+        "A page sells a product directly and seeks merchant appearances"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "A page sells a product directly and seeks merchant appearances",
+          "caveats": "Affiliate-only links are not direct-sale eligibility. Category lists do not become a single Product. Initial-HTML markup is a recommendation for shopping reliability."
+        }
+      ]
+    },
+    {
+      "id": "SRC-049",
+      "title": "News content across Google",
+      "url": "https://support.google.com/news/publisher-center/answer/9607025",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "channel_scope_and_eligibility_overview"
+      ],
+      "applicability_trigger": [
+        "Clarifying News versus ordinary Search or Top stories"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "Clarifying News versus ordinary Search or Top stories",
+          "caveats": "Top stories/News tab consideration is automatic for qualifying content; no guaranteed ranking or required publisher application follows from this guidance."
+        }
+      ]
+    },
+    {
+      "id": "SRC-050",
+      "title": "Share your product data with Google",
+      "url": "https://developers.google.com/search/docs/specialty/ecommerce/share-your-product-data-with-google",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "observed_last_updated_utc",
+          "value": "2025-12-10",
+          "source_alias": "legacy:G31"
+        }
+      ],
+      "notes": [
+        {
+          "caveats": [
+            "The legacy page still mentions Content API; its linked guide is labeled Deprecated. This check did not establish an exact shutdown date."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-051",
+      "title": "Where ecommerce content can appear on Google",
+      "url": "https://developers.google.com/search/docs/specialty/ecommerce/where-ecommerce-data-can-appear-on-google",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "recommendation_and_channel_routing"
+      ],
+      "applicability_trigger": [
+        "Ecommerce catalog/category/merchant content"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "ecommerce_content"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Ecommerce catalog/category/merchant content",
+          "caveats": "Do not require Merchant Center, Business Profile or Maps participation merely because a general article mentions a product."
+        }
+      ]
+    },
+    {
+      "id": "SRC-052",
+      "title": "Write high quality reviews",
+      "url": "https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "recommendation"
+      ],
+      "applicability_trigger": [
+        "Editorial reviews, comparisons or ranked recommendations"
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "reviews_content"
+        }
+      ],
+      "notes": [
+        {
+          "conditional_trigger": "Editorial reviews, comparisons or ranked recommendations",
+          "caveats": "Applies beyond products, including services and destinations. Do not invent hands-on testing. Multiple sellers are something to consider, not mandatory; quality and originality matter more than length."
+        }
+      ]
+    },
+    {
+      "id": "SRC-053",
+      "title": "Announcing web multimodal Search performance reporting in Search Console",
+      "url": "https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Measurement capability",
+        "Search Console reporting announcement"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2026-09-24",
+          "source_alias": "UPD-14"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Opening announcement; search type filter paragraph; global rollout paragraph.",
+          "confirmed_change": "Adds multimodal filtering for standard Search performance and generative-AI reporting, with global rollout starting September 24.",
+          "binding_policy_vs_recommendation": "Measurement capability",
+          "official_category": "Search Console reporting announcement",
+          "limitations": [
+            "Global rollout starting is not the same as proving every property has data.",
+            "Report covers Google visual-search entry points, not all AI engines."
+          ],
+          "date_evidence_type": "Article dateline"
+        }
+      ]
+    },
+    {
+      "id": "SRC-054",
+      "title": "Changelog",
+      "url": "https://developers.google.com/crawling/docs/changelog",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "observed_last_updated_utc",
+          "value": "2026-10-06",
+          "source_alias": "legacy:G41"
+        }
+      ],
+      "notes": [
+        {
+          "caveats": [
+            "October 6 Retry-After entry explicitly documents pre-existing support. Do not label it a new feature."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-055",
+      "title": "Debugging drops in Google Search traffic",
+      "url": "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "observed_last_updated_utc",
+          "value": "2025-12-10",
+          "source_alias": "legacy:G32"
+        }
+      ],
+      "notes": [
+        {
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "id": "SRC-056",
+      "title": "Generative AI performance report (Search)",
+      "url": "https://support.google.com/webmasters/answer/16984139",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Reporting definitions",
+        "Search Console Help measurement specification",
+        "measurement_documentation"
+      ],
+      "applicability_trigger": [
+        "Evaluating actual AI-feature exposure"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": "What's included; Choosing dimensions; Search type; Reading the chart and table.",
+          "confirmed_change": "Current help documents AI Overviews/AI Mode impressions, canonical-URL attribution, country/device/date dimensions, and text versus multimodal filters.",
+          "binding_policy_vs_recommendation": "Reporting definitions",
+          "official_category": "Search Console Help measurement specification",
+          "limitations": [
+            "No query dimension is documented here.",
+            "Low impressions may hide the report; a missing report does not establish an indexing failure.",
+            "Chart and table totals can differ; newest data may be preliminary."
+          ],
+          "date_evidence_type": "Dated rollout note; no last-updated stamp found",
+          "explicit_status_update_date": "2026-08-31"
+        },
+        {
+          "conditional_trigger": "Evaluating actual AI-feature exposure",
+          "caveats": "Worldwide rollout August 31, 2026. Missing report may reflect insufficient impressions. The documented metric here is impressions; do not invent dedicated clicks, query rankings, citation shares or revenue."
+        }
+      ]
+    },
+    {
+      "id": "SRC-057",
+      "title": "Google Search Status Dashboard",
+      "url": "https://status.search.google.com/",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "caveats": [
+            "Temporal overlap with an update does not establish why an individual site gained or lost traffic."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-058",
+      "title": "Google Search's guidance about AI-generated content",
+      "url": "https://developers.google.com/search/blog/2023/02/google-search-and-ai-content",
+      "last_successful_read": "2026-10-08",
+      "source_status": "historical_reference",
+      "recommendation_tier": "historical_reference",
+      "recommended_current": false,
+      "authority": [
+        "Historical explanation of content-quality approach; current policy pages take precedence.",
+        "Search Central policy-explanation blog",
+        "historical clarification still linked from current guidance"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2023-02-08",
+          "source_alias": "UPD-04"
+        },
+        {
+          "field": "displayed_date",
+          "value": "2023-02-08",
+          "source_alias": "P09"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "FAQ: Is AI content against Google Search's guidelines?; Will AI content rank highly on Search?",
+          "confirmed_change": "Establishes the older baseline: appropriate automation is allowed; manipulating rankings with automated content is not.",
+          "binding_policy_vs_recommendation": "Historical explanation of content-quality approach; current policy pages take precedence.",
+          "official_category": "Search Central policy-explanation blog",
+          "limitations": [
+            "This is a 2023 article, not a 2026 policy launch. A present-day retrieval does not change its publication date."
+          ],
+          "date_evidence_type": "Article dateline"
+        }
+      ]
+    },
+    {
+      "id": "SRC-059",
+      "title": "Google's February 2026 Discover Core Update",
+      "url": "https://developers.google.com/search/blog/2026/02/discover-core-update",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Ranking-system announcement and directional content guidance",
+        "Discover ranking announcement"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2026-02-05",
+          "source_alias": "UPD-11"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Three key improvements; topic-by-topic expertise explanation; rollout paragraph.",
+          "confirmed_change": "Announces greater local relevance, reduced clickbait and stronger original, timely, topic-informed coverage in Discover.",
+          "binding_policy_vs_recommendation": "Ranking-system announcement and directional content guidance",
+          "official_category": "Discover ranking announcement",
+          "limitations": [
+            "Initial rollout was US English. This article alone does not confirm completed Taiwan rollout.",
+            "Discover guidance is not identical to universal Web Search eligibility."
+          ],
+          "date_evidence_type": "Article dateline"
+        }
+      ]
+    },
+    {
+      "id": "SRC-060",
+      "title": "Introducing a new spam policy for back button hijacking",
+      "url": "https://developers.google.com/search/blog/2026/04/back-button-hijacking",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Enforceable malicious-practices spam policy",
+        "Spam-policy announcement and page experience",
+        "dated announcement and enforcement start"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2026-04-13",
+          "source_alias": "UPD-10"
+        },
+        {
+          "field": "effective_date",
+          "value": "2026-06-15",
+          "source_alias": "UPD-10"
+        },
+        {
+          "field": "displayed_date",
+          "value": "2026-04-13",
+          "source_alias": "P13"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Why are we taking action?; What should site owners do?",
+          "confirmed_change": "Explicit designation announced April 13; enforcement from June 15. The article says deceptive browser-history manipulation was already against Search Essentials.",
+          "binding_policy_vs_recommendation": "Enforceable malicious-practices spam policy",
+          "official_category": "Spam-policy announcement and page experience",
+          "limitations": [
+            "A new explicit example is not evidence all earlier implementations were permitted.",
+            "Read-only text audits cannot verify browser behavior."
+          ],
+          "date_evidence_type": "Article dateline and explicit enforcement date",
+          "effective_date": "2026-06-15"
+        }
+      ]
+    },
+    {
+      "id": "SRC-061",
+      "title": "Introducing Search Generative AI performance reports in Search Console",
+      "url": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Measurement capability, not ranking requirement",
+        "Search Console reporting announcement"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2026-06-03",
+          "source_alias": "UPD-12"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Dated note above article; list of report dimensions.",
+          "confirmed_change": "Dedicated AI-visibility reports launched June 3; the page confirms worldwide rollout by August 31. Data remains part of overall performance reporting.",
+          "binding_policy_vs_recommendation": "Measurement capability, not ranking requirement",
+          "official_category": "Search Console reporting announcement",
+          "limitations": [
+            "The announcement lists impressions rather than a full separate AI click/CTR/position dataset.",
+            "No user account data was accessed; actual property visibility is unverified."
+          ],
+          "date_evidence_type": "June 3 dateline; dated August 31 rollout note, not a footer",
+          "explicit_status_update_date": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "id": "SRC-062",
+      "title": "Latest documentation updates",
+      "url": "https://developers.google.com/search/updates",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Change evidence only; follow each linked destination's scope.",
+        "Official documentation change log",
+        "dated change log; confirms changes separately from footers",
+        "retired_feature"
+      ],
+      "applicability_trigger": [
+        "A request or template proposes FAQPage for a Google FAQ rich result"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": "October 2026, October 1, Updated guidance on using generative AI content; September 2026 contains no helpful-content change.",
+          "confirmed_change": "2026-10-01: AI-content guide updated with rater-guideline material. Earlier relevant entries are listed in timeline below.",
+          "binding_policy_vs_recommendation": "Change evidence only; follow each linked destination's scope.",
+          "official_category": "Official documentation change log",
+          "limitations": [
+            "Lists major updates, not every edit. Absence of an entry does not prove no edit occurred. No archived before/after snapshot was obtained."
+          ],
+          "date_evidence_type": "Dated changelog entries; not a page-wide revision history"
+        },
+        {
+          "conditional_trigger": "A request or template proposes FAQPage for a Google FAQ rich result",
+          "caveats": "FAQ rich results stopped appearing May 7, 2026; removal notice June 15. Former government/health-only eligibility is historical, not current."
+        }
+      ]
+    },
+    {
+      "id": "SRC-063",
+      "title": "Platform properties roll out globally, plus a new social and video performance guide",
+      "url": "https://developers.google.com/search/blog/2026/07/platform-properties-social-video-guide",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Measurement capability and analysis suggestions",
+        "Search Console cross-surface reporting announcement"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2026-07-29",
+          "source_alias": "UPD-15"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Opening two paragraphs; analysis examples.",
+          "confirmed_change": "Confirms global platform-property availability for Instagram, TikTok, X and YouTube, following July 7 launch.",
+          "binding_policy_vs_recommendation": "Measurement capability and analysis suggestions",
+          "official_category": "Search Console cross-surface reporting announcement",
+          "limitations": [
+            "Measures discovery on Google surfaces, not complete in-platform reach.",
+            "Requires authorized property setup; no account connection was attempted."
+          ],
+          "date_evidence_type": "Article dateline"
+        }
+      ]
+    },
+    {
+      "id": "SRC-064",
+      "title": "Search generative AI control",
+      "url": "https://support.google.com/webmasters/answer/16908024",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "account_level_feature_control"
+      ],
+      "applicability_trigger": [
+        "Diagnosing AIO/AI Mode/Discover AI inclusion"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "Diagnosing AIO/AI Mode/Discover AI inclusion",
+          "caveats": "Worldwide rollout August 31, 2026. Include is the default; there is no requirement to manually opt in when unchanged. Exclusion concerns listed generative AI features, not ordinary Search ranking."
+        }
+      ]
+    },
+    {
+      "id": "SRC-065",
+      "title": "Tell Google about localized versions of your page",
+      "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official quality-evaluation framework or implementation documentation; apply at clause level."
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "observed_last_updated_utc",
+          "value": "2026-09-21",
+          "source_alias": "legacy:G30"
+        }
+      ],
+      "notes": [
+        {
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "id": "SRC-066",
+      "title": "Top ways to ensure your content performs well in Google's AI experiences on Search",
+      "url": "https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search",
+      "last_successful_read": "2026-10-08",
+      "source_status": "historical_reference",
+      "recommendation_tier": "historical_reference",
+      "recommended_current": false,
+      "authority": [
+        "Recommendations plus references to technical/structured-data eligibility",
+        "Historical AI-search best-practices announcement"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2025-05-21",
+          "source_alias": "UPD-16"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Main best-practice sections.",
+          "confirmed_change": "2025 baseline covering distinctive content, page experience, crawlability, preview controls, visible/schema agreement and useful multimedia.",
+          "binding_policy_vs_recommendation": "Recommendations plus references to technical/structured-data eligibility",
+          "official_category": "Historical AI-search best-practices announcement",
+          "limitations": [
+            "Use current 2026 documentation and reporting specifications for implementation.",
+            "Recommendations do not guarantee inclusion in AI answers."
+          ],
+          "date_evidence_type": "Article dateline"
+        }
+      ]
+    },
+    {
+      "id": "SRC-067",
+      "title": "Understanding the sources behind Google News",
+      "url": "https://developers.google.com/search/blog/2021/06/google-news-sources",
+      "last_successful_read": "2026-10-08",
+      "source_status": "historical_reference",
+      "recommendation_tier": "historical_reference",
+      "recommended_current": false,
+      "authority": [
+        "official_policy_explanation"
+      ],
+      "applicability_trigger": [
+        "Interpreting news transparency"
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "conditional_trigger": "Interpreting news transparency",
+          "caveats": "Google describes contextual judgment, including press-freedom risks and legitimate no-byline practices. A mandatory real-name author checklist would overstate the guidance."
+        }
+      ]
+    },
+    {
+      "id": "SRC-068",
+      "title": "Update to the Site Reputation Policy",
+      "url": "https://developers.google.com/search/blog/2026/08/update-site-reputation-policy",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional_reference",
+      "recommended_current": true,
+      "authority": [
+        "Explanation of enforceable policy treatment",
+        "Spam-policy enforcement announcement",
+        "current dated enforcement announcement"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2026-08-28",
+          "source_alias": "UPD-08"
+        },
+        {
+          "field": "effective_date",
+          "value": "2026-08-30",
+          "source_alias": "UPD-08"
+        },
+        {
+          "field": "displayed_date",
+          "value": "2026-08-28",
+          "source_alias": "P12"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Opening announcement; Beginning August 30; bullet list for inside/outside EEA.",
+          "confirmed_change": "From August 30, site-reputation manual-action effects differ inside versus outside the EEA. Inside the EEA, sections may instead be evaluated independently.",
+          "binding_policy_vs_recommendation": "Explanation of enforceable policy treatment",
+          "official_category": "Spam-policy enforcement announcement",
+          "limitations": [
+            "This is not a worldwide exemption from spam policy.",
+            "Taiwan is outside the EEA; publisher location alone does not establish which search results are affected.",
+            "Do not treat every third-party or freelance contribution as abuse."
+          ],
+          "date_evidence_type": "Article dateline and explicit effective date",
+          "effective_date": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "id": "SRC-069",
+      "title": "Updating our site reputation abuse policy",
+      "url": "https://developers.google.com/search/blog/2024/11/site-reputation-abuse",
+      "last_successful_read": "2026-10-08",
+      "source_status": "historical_reference",
+      "recommendation_tier": "historical_reference",
+      "recommended_current": false,
+      "authority": [
+        "historical clarification; read with 2026 replacement"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_date",
+          "value": "2024-11-19",
+          "source_alias": "P11"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "SRC-070",
+      "title": "What web creators should know about our March 2024 core update and new spam policies",
+      "url": "https://developers.google.com/search/blog/2024/03/core-update-spam-policies",
+      "last_successful_read": "2026-10-08",
+      "source_status": "historical_reference",
+      "recommendation_tier": "historical_reference",
+      "recommended_current": false,
+      "authority": [
+        "Historical policy/ranking explanation; current policy supersedes older wording.",
+        "Historical core-update and spam-policy announcement",
+        "historical announcement; not current site-reputation wording"
+      ],
+      "applicability_trigger": [
+        "僅在來源所描述的產品、功能、技術或維護情境被觸發時使用。"
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2024-03-05",
+          "source_alias": "UPD-17"
+        },
+        {
+          "field": "displayed_date",
+          "value": "2024-03-05",
+          "source_alias": "P10"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": "Our March 2024 core update; Our new spam policies; Scaled content abuse.",
+          "confirmed_change": "Documents broader helpfulness evaluation across core systems and introduction of expired-domain, scaled-content and site-reputation abuse policies.",
+          "binding_policy_vs_recommendation": "Historical policy/ranking explanation; current policy supersedes older wording.",
+          "official_category": "Historical core-update and spam-policy announcement",
+          "limitations": [
+            "Site-reputation details have since changed; use UPD-07/08 for current treatment.",
+            "Historical rollout estimates do not describe current recovery timelines."
+          ],
+          "date_evidence_type": "Article dateline"
+        }
+      ]
+    },
+    {
+      "id": "SRC-071",
+      "title": "Google Search's reviews system and your website",
+      "url": "https://developers.google.com/search/docs/appearance/reviews-system",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Current Search ranking-system documentation"
+      ],
+      "applicability_trigger": [
+        "Standalone editorial recommendation, comparison, ranked list, or review; record content language."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2025-12-10 UTC",
+          "source_alias": "GAP-ED-01"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": [
+            "How the reviews system works",
+            "What does this system mean for my site?"
+          ],
+          "source_claim_summary": "The reviews system addresses first-party editorial reviews, not customer review sections. Scope includes products, services and media. It is mainly page-level, with broader assessment possible for review-heavy sites. Its listed languages omit Chinese.",
+          "caveats": [
+            "Quality guidance remains useful outside listed system languages; unsupported-language status is not a content failure.",
+            "Do not predict rankings or recovery from checklist completion."
+          ]
+        },
+        {
+          "evidence_sections": [
+            "How the reviews system works",
+            "What does this system mean for my site"
+          ],
+          "required_properties_or_conditions": [],
+          "recommended_properties_or_conditions": [
+            "Insightful analysis and original research from knowledgeable reviewers"
+          ],
+          "caveats": [
+            "Documented languages exclude Chinese; do not assert this specific system currently applies to Chinese.",
+            "General helpful-content and spam guidance still applies.",
+            "Schema may aid identification but is not required for the system; improvements do not guarantee recovery."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-072",
+      "title": "Prevent user-generated spam on your site and platform",
+      "url": "https://developers.google.com/search/docs/monitor-debug/prevent-abuse",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Current Search implementation recommendations"
+      ],
+      "applicability_trigger": [
+        "Article comments, reader submissions, public profiles, forums or other UGC can appear alongside the article."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2025-12-10 UTC",
+          "source_alias": "GAP-ED-02"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": [
+            "Tell users that you do not allow spam",
+            "Identify spammy accounts",
+            "Use manual approval",
+            "Monitor your service"
+          ],
+          "source_claim_summary": "Google recommends abuse policies, reporting, suspicious-submission moderation, trust-based controls and monitoring. It suggests noindex for new/untrusted contributions and ugc or nofollow for untrusted links.",
+          "caveats": [
+            "Recommendations are not a rule that every comment must be noindexed or every site needs CAPTCHA.",
+            "Do not implement security, moderation or indexing changes without authorization."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-073",
+      "title": "Content that must be blocked from Google News",
+      "url": "https://support.google.com/news/publisher-center/answer/9520026",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Current Google News policy and implementation guidance"
+      ],
+      "applicability_trigger": [
+        "News-targeted article contains licensed republication, extensive third-party copying or paid-link syndication."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": [
+            "Consider blocking for republished content",
+            "Block scraped content",
+            "Block paid and unnatural links"
+          ],
+          "source_claim_summary": "For licensed republication, Google encourages considering exclusion to help identify the original. Near-complete scraping without meaningful added value and ranking-oriented paid-link practices receive stronger blocking instructions.",
+          "caveats": [
+            "News-specific guidance is not a universal instruction to noindex all syndicated Search pages.",
+            "Blocking does not legalize infringement or cure link spam.",
+            "Technical implementation and /answer/9606800 are covered by the publishing worker."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-074",
+      "title": "Google Publisher Policies",
+      "url": "https://support.google.com/publisherpolicies/answer/10502938",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Current Google publisher-product policy"
+      ],
+      "applicability_trigger": [
+        "The page will carry Google ad code, including AdSense or Ad Manager inventory."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": [
+            "Opening applicability",
+            "Misrepresentative content",
+            "Inventory value",
+            "Privacy disclosures"
+          ],
+          "source_claim_summary": "Monetization policies address misleading identities, deceptive claims, manipulated public-interest media, harmful claims, copyright, ad placement, inventory value, privacy disclosures and other publisher obligations.",
+          "caveats": [
+            "Do not label every monetization issue an organic Search violation.",
+            "This editorial module is not a complete legal, account, privacy or ad-technology compliance audit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-075",
+      "title": "Google Publisher Restrictions",
+      "url": "https://support.google.com/publisherpolicies/answer/10437795",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Current Google publisher inventory restrictions"
+      ],
+      "applicability_trigger": [
+        "Google-monetized article concerns restricted topics or includes restricted presentation/video inventory."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": [
+            "Introduction",
+            "Content restrictions",
+            "Behavioral restrictions",
+            "Video inventory restrictions"
+          ],
+          "source_claim_summary": "Restricted inventory can receive fewer or no eligible bids without constituting the same category as a Publisher Policy violation. Categories include sexual or shocking content, certain regulated products, ad obscuring and video inventory.",
+          "caveats": [
+            "Do not call restricted inventory an automatic organic Search ban.",
+            "Location-dependent exclusions and product rules require current verification when triggered; this is not a generic ban on reporting about restricted topics."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-076",
+      "title": "AdSense Program policies",
+      "url": "https://support.google.com/adsense/answer/48182",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Current AdSense product policy"
+      ],
+      "applicability_trigger": [
+        "Article/template uses AdSense specifically."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2026-08-04",
+          "source_alias": "GAP-ED-06"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": [
+            "Encouraging clicks or views",
+            "Ad placement",
+            "Site behavior"
+          ],
+          "source_claim_summary": "The program policy supplements Publisher Policies. It prohibits soliciting ad clicks, disguising ads as editorial/navigation, deceptive destinations and certain placements, and distinguishes restricted inventory from violations.",
+          "caveats": [
+            "AdSense status is not Google Search quality approval.",
+            "Displayed update date is not proof each clause changed then."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-077",
+      "title": "User-generated content overview",
+      "url": "https://support.google.com/adsense/answer/1355699",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Current AdSense/AdMob responsibility guidance"
+      ],
+      "applicability_trigger": [
+        "Google-monetized article page includes comments, uploads, profiles or embedded user material."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": [
+            "What is user-generated content?",
+            "What is my responsibility with user-generated content?"
+          ],
+          "source_claim_summary": "Publishers are responsible for policy compliance of UGC appearing on pages with their ad code, including contributions outside their direct editorial control.",
+          "caveats": [
+            "An initial English-US request returned HTTP 429; the official English-GB version was opened successfully.",
+            "Do not treat every UGC contribution as automatically low quality."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-078",
+      "title": "Good strategies for managing user-generated content",
+      "url": "https://support.google.com/adsense/answer/3011869",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Current AdSense operational recommendations"
+      ],
+      "applicability_trigger": [
+        "UGC will be enabled on a Google-monetized article page."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": [
+            "Before monetising a page with user-generated content",
+            "Create different levels of trusted users",
+            "Disable ad serving until a post is reviewed"
+          ],
+          "source_claim_summary": "Recommended safeguards include reporting, trust levels, moderation, periodic review and disabling ad serving until a contribution is reviewed.",
+          "caveats": [
+            "These are suggested management options, not a mandatory exact technical stack."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-079",
+      "title": "Google-served ads on screens with replicated content",
+      "url": "https://support.google.com/publisherpolicies/answer/11190248",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Current Publisher Policy with explanatory examples"
+      ],
+      "applicability_trigger": [
+        "Google-monetized article republishes, embeds, summarizes or automatically generates material."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": [
+            "Tips for understanding this policy",
+            "Examples of unacceptable replicated content"
+          ],
+          "source_claim_summary": "This policy explains insufficiently transformed copies, rewritten copies and embeds without substantial value. Examples also address automatically generated content without manual review or curation.",
+          "caveats": [
+            "Do not infer that all AI assistance or licensed syndication is prohibited.",
+            "Do not duplicate the same issue as multiple independent score deductions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-080",
+      "title": "Google-served ads on screens without publisher-content",
+      "url": "https://support.google.com/publisherpolicies/answer/11112688",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Current Publisher Policy with explanatory examples"
+      ],
+      "applicability_trigger": [
+        "Google ad code may appear on a draft, incomplete article, placeholder or non-content screen."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": [
+            "Policy bullets",
+            "Tips for understanding this policy"
+          ],
+          "source_claim_summary": "Ads cannot run on no-content, low-value, unfinished or navigation-oriented screens. Examples include error/exit screens and generated content without review or curation.",
+          "caveats": [
+            "Avoid inventing minimum word counts; the policy supplies none.",
+            "Manual-review concerns may overlap GAP-ED-09 and should be one finding."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-081",
+      "title": "More ads or paid promotional material than publisher-content",
+      "url": "https://support.google.com/publisherpolicies/answer/11169917",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Current Publisher Policy with explanatory definitions"
+      ],
+      "applicability_trigger": [
+        "Google ad code appears on the article."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": [
+            "Tips for understanding this policy"
+          ],
+          "source_claim_summary": "The policy restricts ads/promotional material exceeding publisher content and clarifies that whitespace, navigation links, headers and footers do not count as publisher content.",
+          "caveats": [
+            "No numeric pixel ratio or universal ad-unit limit is supplied; do not invent one.",
+            "Do not transfer these definitions into a purported Google organic-ranking formula."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-082",
+      "title": "Ranking within Google News",
+      "url": "https://support.google.com/news/publisher-center/answer/9606702",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "supporting_reference",
+      "recommended_current": true,
+      "authority": [
+        "Current Google News ranking explanation"
+      ],
+      "applicability_trigger": [
+        "An audit makes News visibility claims or the publisher believes AdSense approval improves News ranking."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": [
+            "Opening paragraph",
+            "Ranking factors"
+          ],
+          "source_claim_summary": "News ranking considers multiple relevance, authority, freshness, usability and contextual factors; Google explicitly separates ad-program participation from ranking.",
+          "caveats": [
+            "Use as interpretation, not an additional scored pass/fail checklist."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-083",
+      "title": "Understanding news topic authority",
+      "url": "https://developers.google.com/search/blog/2023/05/understanding-news-topic-authority",
+      "last_successful_read": "2026-10-08",
+      "source_status": "historical_reference",
+      "recommendation_tier": "historical_reference",
+      "recommended_current": false,
+      "authority": [
+        "Official dated Search/News system explanation"
+      ],
+      "applicability_trigger": [
+        "Specialist or local news article; evaluating what original reporting and publisher experience can actually be evidenced."
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2023-05-23",
+          "source_alias": "GAP-ED-13"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": [
+            "How topic authority works",
+            "How topic authority helps with news searches"
+          ],
+          "source_claim_summary": "The explanation describes topical/local prominence, influence of original reporting and source reputation as signals for news topic authority.",
+          "caveats": [
+            "A dated explanation, not a newly introduced 2026 rule or universal topical-coverage quota.",
+            "No official numeric authority score is exposed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-084",
+      "title": "Verification: Advanced Reverse Image Search",
+      "url": "https://newsinitiative.withgoogle.com/resources/trainings/verification/verification-advanced-reverse-image-search",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "supporting_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official Google News Initiative journalism training"
+      ],
+      "applicability_trigger": [
+        "An article uses third-party or eyewitness media whose date, place or event attribution is material."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": [
+            "Uncovering your image’s backstory",
+            "Image fact-checking 101",
+            "Multiple images and video thumbnails"
+          ],
+          "source_claim_summary": "The training describes tracing earlier image uses and checking source/context to detect misattribution, including recirculated event imagery.",
+          "caveats": [
+            "Training is not Search eligibility policy.",
+            "Its interface walkthrough may be dated; verify the live tool workflow. Earliest discovered use is not proof of original creation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-085",
+      "title": "Google News transitions to automatically-generated publication pages",
+      "url": "https://support.google.com/news/publisher-center/answer/15898024",
+      "last_successful_read": "2026-10-08",
+      "source_status": "historical_reference",
+      "recommendation_tier": "historical_reference",
+      "recommended_current": false,
+      "authority": [
+        "Official dated product-workflow transition notice"
+      ],
+      "applicability_trigger": [
+        "The audit checklist still asks the publisher to submit RSS sections or customize a Google News landing page in Publisher Center."
+      ],
+      "observed_dates": [
+        {
+          "field": "date_published",
+          "value": "2025-02-10",
+          "source_alias": "GAP-ED-15"
+        },
+        {
+          "field": "date_updated",
+          "value": "2025-03-20",
+          "source_alias": "GAP-ED-15"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_location": [
+            "Opening transition",
+            "Updating logos and titles"
+          ],
+          "source_claim_summary": "The notice documents the March 2025 transition away from manual News publication pages and Publisher Center-submitted feeds/web locations; News uses site names and favicons for titles/logos.",
+          "caveats": [
+            "Historical workflow evidence, not an extra article eligibility requirement.",
+            "Publisher Center still has functions for other products; do not say the entire service closed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-086",
+      "title": "Google Publisher Standards change log",
+      "url": "https://support.google.com/publisherpolicies/answer/10852414",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "supporting_reference",
+      "recommended_current": true,
+      "authority": [
+        "Official publisher-policy change log"
+      ],
+      "applicability_trigger": [
+        "Maintaining the optional monetization module or assessing a claimed recent policy change."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_location": [
+            "Change log introduction",
+            "Dated update entries"
+          ],
+          "source_claim_summary": "The log records dated policy/restriction updates and sometimes explicitly distinguishes clarification from changed enforcement.",
+          "caveats": [
+            "Do not infer no changes occurred solely because the top visible entry is old.",
+            "Use current rule text over superseded announcement wording."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-087",
+      "title": "Recipe structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/recipe",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "conditional_feature_eligibility_policy_with_recommendations"
+      ],
+      "applicability_trigger": [
+        "A page teaches preparation of a particular dish and Recipe rich-result eligibility is implemented or requested."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2026-09-08",
+          "source_alias": "FMT-01"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Guidelines",
+            "Recipe required/recommended properties",
+            "HowToSection",
+            "HowToStep"
+          ],
+          "required_properties_or_conditions": [
+            "Recipe.name",
+            "Recipe.image depicting the finished dish; accessible representative image",
+            "Collection/carousel requires corresponding ItemList and a collection summary page"
+          ],
+          "recommended_properties_or_conditions": [
+            "Applicable ingredients, instructions, real preparation/cooking times, yield and nutrition",
+            "HowToStep for clear steps; HowToSection only for genuine sections"
+          ],
+          "caveats": [
+            "Recipe schema image does not select the ordinary text-result thumbnail.",
+            "Standalone HowTo retirement does not retire HowToStep or HowToSection inside Recipe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-088",
+      "title": "Discussion forum (DiscussionForumPosting, SocialMediaPosting) structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/discussion-forum",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "conditional_feature_eligibility_policy_with_recommendations"
+      ],
+      "applicability_trigger": [
+        "A genuine user-generated forum/social post with discussion, rather than a publisher-authored article or product review."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2026-09-08",
+          "source_alias": "FMT-02"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Content guidelines",
+            "Technical guidelines",
+            "DiscussionForumPosting and Comment property definitions"
+          ],
+          "required_properties_or_conditions": [
+            "author, author.name, datePublished",
+            "text or image or video; documented exception for externally referenced posts"
+          ],
+          "recommended_properties_or_conditions": [
+            "Accurate comment threading, counts, author.url and actual interaction statistics",
+            "Applicable digitalSourceType for AI/algorithmic content; deleted status when relevant",
+            "Microdata/RDFa preferred here, while JSON-LD remains supported"
+          ],
+          "caveats": [
+            "Recommended digitalSourceType is format-specific guidance, not a universal mandatory AI label."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-089",
+      "title": "Q&A (QAPage) structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/qapage",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "conditional_feature_eligibility_policy_with_recommendations"
+      ],
+      "applicability_trigger": [
+        "A page centers on one question and accepts user answers; separately consider the documented educational-homework exception."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2026-09-08",
+          "source_alias": "FMT-03"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Content guidelines including education exception",
+            "QAPage",
+            "Question",
+            "Answer",
+            "Comment"
+          ],
+          "required_properties_or_conditions": [
+            "One QAPage with one mainEntity Question",
+            "Question.name, answerCount and at least one acceptedAnswer or suggestedAnswer for rich-result eligibility",
+            "Answer.text"
+          ],
+          "recommended_properties_or_conditions": [
+            "Actual author/date data, question/answer comments, commentCount, digitalSourceType and inline media"
+          ],
+          "caveats": [
+            "Education exception: a user-submitted homework question can have one answer provided/selected by in-house experts.",
+            "An unanswered question may be marked with answerCount 0, but is not rich-result eligible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-090",
+      "title": "Dataset (Dataset, DataCatalog, DataDownload) structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/dataset",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "conditional_dataset_discovery_requirements_and_provenance_recommendations"
+      ],
+      "applicability_trigger": [
+        "A page describes a real dataset underlying research or data journalism, or a dataset repository landing page."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2026-09-08",
+          "source_alias": "FMT-04"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Dataset discovery",
+            "Guidelines and source/provenance",
+            "Dataset required properties",
+            "DataDownload"
+          ],
+          "required_properties_or_conditions": [
+            "Dataset.name",
+            "Dataset.description between 50 and 5000 characters"
+          ],
+          "recommended_properties_or_conditions": [
+            "Canonical dataset landing page, actual creator, license, identifiers and distribution",
+            "sameAs for unchanged republication; isBasedOn for materially changed or aggregated data"
+          ],
+          "caveats": [
+            "This improves Dataset Search discovery, not a promised ordinary-web ranking boost.",
+            "DCAT is supported for discovery but not by Rich Results Test; validator limitations are not automatically content failures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-091",
+      "title": "Carousel (ItemList) structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/carousel",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "conditional_feature_eligibility_policy"
+      ],
+      "applicability_trigger": [
+        "An eligible host list of Recipe, Course, Restaurant or Movie content; not every ranked article or comparison list."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2026-09-08",
+          "source_alias": "FMT-05"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Supported types",
+            "How to add structured data",
+            "Guidelines",
+            "Validate and deploy"
+          ],
+          "required_properties_or_conditions": [
+            "At least two ListItem elements in a summary list; type-specific rules may be stricter",
+            "All listed items share the supported type; markup includes the visible list",
+            "Summary-linked detail pages satisfy their individual type requirements"
+          ],
+          "recommended_properties_or_conditions": [
+            "Validate each detail URL as well as the list page"
+          ],
+          "caveats": [
+            "This host-carousel guide is distinct from regional carousel programs.",
+            "No guarantee of display; Course list specifically requires at least three courses."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-092",
+      "title": "Movie structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/movie",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "conditional_feature_eligibility_policy_with_recommendations"
+      ],
+      "applicability_trigger": [
+        "An editorial movie list is seeking the supported movie carousel."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2026-09-08",
+          "source_alias": "FMT-06"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Guidelines",
+            "Movie required and recommended properties"
+          ],
+          "required_properties_or_conditions": [
+            "Movie.name and image, in addition to Carousel properties",
+            "Representative accessible high-resolution movie image in supported formats with approximately 6:9 aspect ratio"
+          ],
+          "recommended_properties_or_conditions": [
+            "Truthful release date, director, review and aggregateRating where available"
+          ],
+          "caveats": [
+            "Applies to movie-carousel eligibility; not a required schema for every film essay."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-093",
+      "title": "Software app (SoftwareApplication) structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/software-app",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "conditional_feature_eligibility_policy_with_recommendations"
+      ],
+      "applicability_trigger": [
+        "A page has substantive, visible software-application details and seeks the software-app rich result."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2026-09-08",
+          "source_alias": "FMT-07"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Guidelines",
+            "SoftwareApplication properties",
+            "Extended properties"
+          ],
+          "required_properties_or_conditions": [
+            "name",
+            "offers.price; 0 only when actually free",
+            "A genuine review or aggregateRating meeting review-snippet rules"
+          ],
+          "recommended_properties_or_conditions": [
+            "priceCurrency for nonzero price",
+            "Supported applicationCategory and actual operatingSystem"
+          ],
+          "caveats": [
+            "MobileApplication and WebApplication are supported subtypes.",
+            "A VideoGame alone is not sufficient; follow documented co-typing if relevant."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-094",
+      "title": "Education Q&A (Quiz, Question, Answer) structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/education-qa",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "conditional_feature_eligibility_policy_with_recommendations"
+      ],
+      "applicability_trigger": [
+        "Actual educational flashcard pages, in a supported feature language/region."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2026-09-08",
+          "source_alias": "FMT-08"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Feature availability",
+            "Technical/content guidelines",
+            "Quiz and Question definitions"
+          ],
+          "required_properties_or_conditions": [
+            "Quiz.hasPart with Question.text, eduQuestionType=Flashcard and acceptedAnswer.text",
+            "Educational question-answer pairs; questions visible on the leaf page",
+            "Content accuracy and pedagogical quality"
+          ],
+          "recommended_properties_or_conditions": [
+            "Verified subject and educationalAlignment"
+          ],
+          "caveats": [
+            "Listed availability: English, Portuguese and Vietnamese across Search regions; Spanish in Mexico. Chinese is not listed.",
+            "Single user-question pages route to QAPage; no invented curriculum alignment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-095",
+      "title": "Course list structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/course",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current_with_conflict_caveat",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "conditional_feature_eligibility_policy_with_documented_classification_ambiguity"
+      ],
+      "applicability_trigger": [
+        "A genuine provider course catalog, rather than an ordinary educational explainer or isolated short tutorial."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2026-09-08",
+          "source_alias": "FMT-09"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Content guidelines",
+            "Technical guidelines",
+            "Course required/recommended property table"
+          ],
+          "required_properties_or_conditions": [
+            "At least three actual courses plus Carousel markup",
+            "Curriculum with an educational outcome, instructors and student roster",
+            "Property table requires name and description"
+          ],
+          "recommended_properties_or_conditions": [
+            "Property table labels provider recommended"
+          ],
+          "caveats": [
+            "Course list remains documented and supported; retired Course info is a different feature.",
+            "Resolve property-label ambiguity against current validation and documentation, not an invented universal rule."
+          ]
+        }
+      ],
+      "conflict_notes": [
+        "Course provider 在技術指引與屬性表的 required/recommended 標示不一致，需按當下文件與驗證結果處理。"
+      ]
+    },
+    {
+      "id": "SRC-096",
+      "title": "Flexible Sampling general guidance",
+      "url": "https://developers.google.com/search/docs/appearance/flexible-sampling",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "publisher_experimentation_recommendation_with_paywall_policy_reference"
+      ],
+      "applicability_trigger": [
+        "Subscription or registration-gated articles where sampling and reader experience are being evaluated."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "FMT-11"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Metering",
+            "Lead-in",
+            "Making Changes",
+            "How to indicate paywalled content"
+          ],
+          "required_properties_or_conditions": [],
+          "recommended_properties_or_conditions": [
+            "Consider metered access or a useful lead-in; cautiously test access changes"
+          ],
+          "caveats": [
+            "The guide's sample quotas are starting recommendations for relevant publishers, not mandatory free-article quotas or universal ranking thresholds.",
+            "Do not remove a paywall or change subscriptions during a content audit."
+          ]
+        },
+        {
+          "evidence_locations": [
+            "Metering: How much content",
+            "Lead-in",
+            "How to indicate paywalled content"
+          ],
+          "conditional_trigger": "Subscription/registration access or sampling behavior is part of the article launch.",
+          "caveat": "Sampling recommendations are contextual, not a mandatory free-article count or article word count. Do not remove a paywall or change its commercial terms as an audit side effect.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    },
+    {
+      "id": "SRC-097",
+      "title": "Enable Web Stories on Google",
+      "url": "https://developers.google.com/search/docs/appearance/enable-web-stories",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "conditional_format_technical_eligibility_requirements"
+      ],
+      "applicability_trigger": [
+        "Actual Web Stories, not ordinary articles containing slides or video."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2026-07-01",
+          "source_alias": "FMT-12"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Feature availability",
+            "Validate AMP",
+            "Verify metadata",
+            "Check indexing"
+          ],
+          "required_properties_or_conditions": [
+            "Valid AMP story",
+            "publisher-logo-src, poster-portrait-src, title and publisher metadata",
+            "Self-canonical and accessible/indexable story"
+          ],
+          "recommended_properties_or_conditions": [
+            "Validate story and preview; link it from the site or sitemap"
+          ],
+          "caveats": [
+            "Search single results are available across Search regions/languages.",
+            "Discover appearance is possible across its regions/languages, with greater likelihood documented for US, India and Brazil; no promise of exposure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SRC-098",
+      "title": "Web Story Content Policies on Google",
+      "url": "https://developers.google.com/search/docs/appearance/web-stories-content-policy",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current_with_conflict_caveat",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "format_specific_content_policy"
+      ],
+      "applicability_trigger": [
+        "Web Story eligibility, especially richer Google Search experiences."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "FMT-13"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Policy scope",
+            "Copyright",
+            "Text-heavy stories",
+            "Narrative",
+            "Incomplete stories",
+            "Overly commercial"
+          ],
+          "required_properties_or_conditions": [
+            "Applicable Search/Discover policies",
+            "No infringing assets, seriously degraded media, disconnected narrative or incomplete story requiring an external visit for essential facts",
+            "Story must not exist solely as an advertisement; affiliate links limited to a minor part"
+          ],
+          "recommended_properties_or_conditions": [
+            "Bite-sized video encouraged"
+          ],
+          "caveats": [
+            "Do not turn 180 characters into a general article word-count rule.",
+            "The separate design-best-practices page mentions approximately 280 characters; surface this tension and prioritize the policy for feature eligibility."
+          ]
+        }
+      ],
+      "conflict_notes": [
+        "Web Stories 內容政策的文字密度警語與設計建議字數不同，功能資格優先採政策；不可轉成一般文章門檻。"
+      ]
+    },
+    {
+      "id": "SRC-099",
+      "title": "Best practices for creating Web Stories",
+      "url": "https://developers.google.com/search/docs/appearance/web-stories-creation-best-practices",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current_with_conflict_caveat",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "format_specific_recommendations_with_linked_technical_requirements"
+      ],
+      "applicability_trigger": [
+        "Editorial/design review of an actual Web Story."
+      ],
+      "observed_dates": [
+        {
+          "field": "displayed_last_updated",
+          "value": "2026-06-09",
+          "source_alias": "FMT-14"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_sections": [
+            "Storytelling",
+            "Design",
+            "SEO",
+            "Accessibility guidance"
+          ],
+          "required_properties_or_conditions": [],
+          "recommended_properties_or_conditions": [
+            "Complete narrative, readable unobscured text, suitable media, restrained animation and platform-appropriate CTAs",
+            "Descriptive short title and accessible assets"
+          ],
+          "caveats": [
+            "Design recommendations are not universal Search rules.",
+            "Approximately 280 characters here must not override the separate content-policy warning about text-heavy stories."
+          ]
+        }
+      ],
+      "conflict_notes": [
+        "Web Stories 內容政策的文字密度警語與設計建議字數不同，功能資格優先採政策；不可轉成一般文章門檻。"
+      ]
+    },
+    {
+      "id": "SRC-100",
+      "title": "Control what you share with Google",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/control-what-you-share",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "A draft, staging page, embargoed article, or attached private asset must remain confidential."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "GAP-PUB-01"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "How to block content: password protection and noindex"
+          ],
+          "conditional_trigger": "A draft, staging page, embargoed article, or attached private asset must remain confidential.",
+          "caveat": "Noindex changes Search visibility, not who can open the URL. Do not make a protected draft public merely to test Search eligibility.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    },
+    {
+      "id": "SRC-101",
+      "title": "Keep redacted information out of Google Search",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/keep-redacted-information-out",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "The article includes redacted screenshots, PDFs, office files, or attachments containing non-public material."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "GAP-PUB-02"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Introduction",
+            "Edit and export images before embedding them",
+            "Edit or remove unwanted text before moving to a public file format"
+          ],
+          "conditional_trigger": "The article includes redacted screenshots, PDFs, office files, or attachments containing non-public material.",
+          "caveat": "A black rectangle, crop in a document editor, or visually hidden text is not evidence of safe redaction. Do not infer privacy safety from a screenshot alone.",
+          "article_text_limit": "Article text supports the content comparison only; HTTP, rendering, access controls, and Google indexing outcomes require their own evidence."
+        }
+      ]
+    },
+    {
+      "id": "SRC-102",
+      "title": "Remove a page hosted on your site from Google",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/remove-information",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "An accidentally public draft or sensitive old version has been indexed."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "GAP-PUB-03"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Remove a page hosted on your site",
+            "Make your removal permanent"
+          ],
+          "conditional_trigger": "An accidentally public draft or sensitive old version has been indexed.",
+          "caveat": "The Removals tool is temporary (about six months); Search removal does not remove the live file or protect it from direct access. Research is not authorization to submit a removal.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    },
+    {
+      "id": "SRC-103",
+      "title": "Fix lazy-loaded content",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/lazy-loading",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "Primary text, images, video, or article continuation is lazy-loaded or depends on scrolling/clicking."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "GAP-PUB-04"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Load content when it is visible in the viewport",
+            "Support paginated loading for infinite scroll",
+            "Test"
+          ],
+          "conditional_trigger": "Primary text, images, video, or article continuation is lazy-loaded or depends on scrolling/clicking.",
+          "caveat": "Lazy loading itself is not a defect. Do not assume content is absent from Google merely because the initial source omits it; compare rendering evidence.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    },
+    {
+      "id": "SRC-104",
+      "title": "Mobile site and mobile-first indexing best practices",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "Dynamic serving or separate mobile URLs produce different versions; mobile rendering is relevant to publication."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "GAP-PUB-05"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Mobile site configurations",
+            "Make sure Google can access and render your content",
+            "Content equivalence",
+            "Check structured data and metadata"
+          ],
+          "conditional_trigger": "Dynamic serving or separate mobile URLs produce different versions; mobile rendering is relevant to publication.",
+          "caveat": "The detailed parity guide explicitly targets dynamic/separate-URL configurations. Responsive design may use different layout, tabs or accordions without requiring a separate mobile URL.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    },
+    {
+      "id": "SRC-105",
+      "title": "Managing multi-regional and multilingual sites",
+      "url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "The article has translated/regional versions or language/geolocation-dependent delivery."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "GAP-PUB-06"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Use different URLs for different language versions",
+            "Make sure page language is obvious",
+            "Let users switch page language",
+            "Handling duplicate pages"
+          ],
+          "conditional_trigger": "The article has translated/regional versions or language/geolocation-dependent delivery.",
+          "caveat": "Google identifies language from visible content rather than relying on HTML lang or the URL. This does not make lang attributes useless for accessibility or other systems.",
+          "article_text_limit": "Article text supports the content comparison only; HTTP, rendering, access controls, and Google indexing outcomes require their own evidence."
+        }
+      ]
+    },
+    {
+      "id": "SRC-106",
+      "title": "Translated results in Google Search",
+      "url": "https://developers.google.com/search/docs/appearance/translated-results",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "The publisher asks about translated title/snippet/page results or intends to restrict Search translation features."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "GAP-PUB-07"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "How translated results work",
+            "Monitor performance in Search Console",
+            "Opting in or out of translated results"
+          ],
+          "conditional_trigger": "The publisher asks about translated title/snippet/page results or intends to restrict Search translation features.",
+          "caveat": "No extra opt-in markup is needed; translated results are not guaranteed. Notranslate is a deliberate feature restriction, not a generic SEO defect.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    },
+    {
+      "id": "SRC-107",
+      "title": "What is canonicalization",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/canonicalization",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "An audit alleges duplicate-content penalties, reviews staging/URL variants, or compares translated copies."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2026-08-20",
+          "source_alias": "GAP-PUB-08"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "What is canonicalization",
+            "How Google indexes and chooses the canonical URL"
+          ],
+          "conditional_trigger": "An audit alleges duplicate-content penalties, reviews staging/URL variants, or compares translated copies.",
+          "caveat": "Canonical preferences are hints, not commands. Do not require every unique article to declare canonical or classify all same-topic pages as duplicates.",
+          "article_text_limit": "Article text supports the content comparison only; HTTP, rendering, access controls, and Google indexing outcomes require their own evidence."
+        }
+      ]
+    },
+    {
+      "id": "SRC-108",
+      "title": "Google's common crawlers",
+      "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Crawling Infrastructure product-token reference"
+      ],
+      "applicability_trigger": [
+        "A publisher asks about Gemini training/grounding permissions or conflates those with Search visibility and AI Search controls."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2026-07-14",
+          "source_alias": "GAP-PUB-09"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Google-Extended"
+          ],
+          "conditional_trigger": "A publisher asks about Gemini training/grounding permissions or conflates those with Search visibility and AI Search controls.",
+          "caveat": "Google-Extended is a robots.txt product token without a separate HTTP user-agent. It controls specified Gemini training/grounding uses and does not affect Search inclusion or ranking.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    },
+    {
+      "id": "SRC-109",
+      "title": "Ask Google to recrawl your URLs",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "A new or materially changed article is live and the publisher asks how to notify Google."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "GAP-PUB-10"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Ask Google to recrawl your URLs",
+            "Use the URL Inspection tool"
+          ],
+          "conditional_trigger": "A new or materially changed article is live and the publisher asks how to notify Google.",
+          "caveat": "Crawling may take days or weeks; a request guarantees neither indexing nor timing. Repeating the same request does not speed crawling. Do not expose a draft to request indexing.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    },
+    {
+      "id": "SRC-110",
+      "title": "How HTTP status codes affect Google's crawlers",
+      "url": "https://developers.google.com/crawling/docs/troubleshooting/http-status-codes",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current_with_conflict_caveat",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Crawling Infrastructure HTTP behavior reference"
+      ],
+      "applicability_trigger": [
+        "A publish URL, attachment, redirect, blank template or error page is tested."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2026-02-04",
+          "source_alias": "GAP-PUB-11"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "HTTP status codes: 2xx, 3xx, 4xx, 5xx"
+          ],
+          "conditional_trigger": "A publish URL, attachment, redirect, blank template or error page is tested.",
+          "caveat": "A 200/2xx response is not proof of indexing. Do not confuse robots.txt response semantics with an article response. Redirect-tool behavior has an official-document inconsistency recorded below.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ],
+      "conflict_notes": [
+        "HTTP 參考文件與 URL Inspection Help 對檢查工具是否跟隨重新導向的敘述不同；應取得實際重新導向路徑與最終網址並保留測試類型及時點。"
+      ]
+    },
+    {
+      "id": "SRC-111",
+      "title": "URL Inspection tool",
+      "url": "https://support.google.com/webmasters/answer/9012289",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current_with_conflict_caveat",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Search Console Help; tool capabilities and limitations"
+      ],
+      "applicability_trigger": [
+        "A reviewer uses Search Console evidence to claim indexability, indexing, canonical selection, or video indexing."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Things to keep in mind",
+            "Live URL test",
+            "About the live test results",
+            "View rendered page"
+          ],
+          "conditional_trigger": "A reviewer uses Search Console evidence to claim indexability, indexing, canonical selection, or video indexing.",
+          "caveat": "A valid live result does not guarantee indexing or test every quality, policy, removal or duplication condition. This task did not access Search Console.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ],
+      "conflict_notes": [
+        "HTTP 參考文件與 URL Inspection Help 對檢查工具是否跟隨重新導向的敘述不同；應取得實際重新導向路徑與最終網址並保留測試類型及時點。"
+      ]
+    },
+    {
+      "id": "SRC-112",
+      "title": "How Google interprets the robots.txt specification",
+      "url": "https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Crawling Infrastructure robots.txt specification"
+      ],
+      "applicability_trigger": [
+        "Robots rules are supplied, crawling appears blocked, or an audit claims robots.txt must exist."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2026-08-31",
+          "source_alias": "GAP-PUB-13"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "File location and range of validity",
+            "Handling of errors and HTTP status codes",
+            "Order of precedence"
+          ],
+          "conditional_trigger": "Robots rules are supplied, crawling appears blocked, or an audit claims robots.txt must exist.",
+          "caveat": "For robots.txt, Google treats 4xx other than 429 as no crawl restrictions. Do not infer this behavior for article URLs, and do not assume robots controls confidentiality.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    },
+    {
+      "id": "SRC-113",
+      "title": "Use valid HTML to specify page metadata",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/valid-page-metadata",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "HTML/CMS templates or plugin-generated head elements are available for technical review."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "GAP-PUB-14"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Use valid elements in the head element",
+            "Do not use invalid elements in the head element"
+          ],
+          "conditional_trigger": "HTML/CMS templates or plugin-generated head elements are available for technical review.",
+          "caveat": "This is a markup check, not a manuscript-quality issue. A complete HTML validator pass is not a universal ranking requirement.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    },
+    {
+      "id": "SRC-114",
+      "title": "Fix canonicalization issues",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/canonicalization-troubleshooting",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "The observed selected canonical differs from intent or a partner republishes the article."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2026-08-21",
+          "source_alias": "GAP-PUB-15"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Troubleshooting steps",
+            "Incorrect canonical elements",
+            "Misconfigured servers",
+            "Malicious hacking",
+            "Syndicated content"
+          ],
+          "conditional_trigger": "The observed selected canonical differs from intent or a partner republishes the article.",
+          "caveat": "Unexpected canonical selection alone does not prove hacking or a penalty. Check evidence before proposing content differentiation, technical changes or security escalation.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    },
+    {
+      "id": "SRC-115",
+      "title": "Avoid article duplication in Google News",
+      "url": "https://support.google.com/news/publisher-center/answer/9606800",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google News Publisher Center Help; conditional syndication implementation guidance"
+      ],
+      "applicability_trigger": [
+        "An article is licensed/syndicated to other sites and the publisher wants to control duplicate Search/News exposure."
+      ],
+      "observed_dates": [],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Avoid duplication by syndication partners",
+            "Avoid duplication on your own site"
+          ],
+          "conditional_trigger": "An article is licensed/syndicated to other sites and the publisher wants to control duplicate Search/News exposure.",
+          "caveat": "Noindex may deliberately remove a partner page from discovery. Do not add it without an explicit publishing decision; canonical is not the recommended partner-suppression solution.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    },
+    {
+      "id": "SRC-116",
+      "title": "Get started with Search: a developer's guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/get-started-developers",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "Important article information appears through CSS-generated text, canvas, graphics or a custom visual renderer."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "GAP-PUB-18"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Do not forget about the words on the page"
+          ],
+          "conditional_trigger": "Important article information appears through CSS-generated text, canvas, graphics or a custom visual renderer.",
+          "caveat": "Do not generalize this into a claim that Google cannot understand images or video, or that all JavaScript content is invisible.",
+          "article_text_limit": "Article text supports the content comparison only; HTTP, rendering, access controls, and Google indexing outcomes require their own evidence."
+        }
+      ]
+    },
+    {
+      "id": "SRC-117",
+      "title": "URL structure best practices for Google Search",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/url-structure",
+      "last_successful_read": "2026-10-08",
+      "source_status": "current",
+      "recommendation_tier": "conditional",
+      "recommended_current": true,
+      "authority": [
+        "Official Google Search Central documentation; conditional technical guidance"
+      ],
+      "applicability_trigger": [
+        "The article uses client-side fragment routing, unstable parameters, or conflicting case/URL variants."
+      ],
+      "observed_dates": [
+        {
+          "field": "page_last_updated",
+          "value": "2025-12-10",
+          "source_alias": "GAP-PUB-19"
+        }
+      ],
+      "notes": [
+        {
+          "evidence_locations": [
+            "Requirements for a crawlable URL structure",
+            "Make it easy to understand URL structure",
+            "Avoid common issues"
+          ],
+          "conditional_trigger": "The article uses client-side fragment routing, unstable parameters, or conflicting case/URL variants.",
+          "caveat": "Readable slugs and hyphen choices are recommendations, not ranking guarantees or reasons to migrate a working URL solely for keyword placement.",
+          "article_text_limit": "Manuscript text can identify the trigger or intended behavior; it cannot establish this implementation or Google indexing outcome."
+        }
+      ]
+    }
+  ]
+}

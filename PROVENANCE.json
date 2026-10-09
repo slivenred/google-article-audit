@@ -1,0 +1,26 @@
+{
+  "bundle_version": "1.0.0",
+  "guidance_snapshot_as_of": "2026-10-08",
+  "source_kind": "Existing user-owned Google article audit skill, copied unchanged",
+  "source_commit": "2db7fd73c3ec9c888ec892dc9c80d894fe4baaf8",
+  "counts": {
+    "sources": 117,
+    "checks": 44,
+    "modules": 32
+  },
+  "note": "Dates and evidence statuses are preserved. Package creation did not re-verify all Google source pages. All check IDs and gates are local conventions, not official Google scoring.",
+  "skill_files_sha256": {
+    "SKILL.md": "7ea8a2dc31959b44b46b7fa6fc3477a95640d500e702fb94d732731ca4f7e986",
+    "agents/openai.yaml": "d7165abbd1e9d8c4f2f66d1fa8668a72d95a83ce28014d335c3568700a3f4f22",
+    "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+    "references/checks.json": "969b54cc0a62c40153a576eb748fd45ed1133c63eed1265ece0c04a6dc3c45a6",
+    "references/conditional.md": "0f333fd77871c40deee52c3984bf6f8c9a3d5e8a743b7caccf4d631f2f3f11c2",
+    "references/core.md": "cb138484db6ccee7dbe8ff590720de7e8700df9284dbb30668fa940013140aaa",
+    "references/findings.md": "bdecba1144bc7f9edafb942ba3f86387c6d14d67087eefeb3df375769a2435e7",
+    "references/formats.md": "bd38f8019f8d0fa48347268b3be0d77d1b3935dcfdf2ca0bc0d7e0bca94ab14a",
+    "references/modules.json": "16d8d6719a9ee0fc99e5976f06aa8d9732d9974cce996a0abc2ee3eb18b4a90d",
+    "references/source-registry.json": "19c512f1c4c94aed78505bbb352484408ccc7c50e72f3684813790544ac56151",
+    "references/sources.md": "d07cef82b1ca1b184953b10e2bcbaa303b5de53320a8168adfb0787582995f6a",
+    "scripts/select_guidance.py": "43eacf08b7c97b9aaca9019818348960816e9766a9aa7b28457a168c33f2284b"
+  }
+}
